@@ -1,0 +1,3044 @@
+[gd_scene format=4 uid="uid://boo0ugevdbxu2"]
+
+[ext_resource type="Texture2D" uid="uid://bltu0xbkj0cpv" path="res://art/Sunnyside_World_Assets/Tileset/spr_tileset_sunnysideworld_16px.png" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://74w0ab8fhgb7" path="res://main.gd" id="1_lswn8"]
+[ext_resource type="Texture2D" uid="uid://dv3shyjt2jtt" path="res://art/Sunnyside_World_Assets/UI/label_left.png" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://by1lexjtwvoj5" path="res://art/Sunnyside_World_Assets/UI/label_middle.png" id="3_lquwl"]
+[ext_resource type="Texture2D" uid="uid://bm758nsw2upu" path="res://art/Sunnyside_World_Assets/UI/label_right.png" id="4_7mycd"]
+[ext_resource type="Script" uid="uid://cob32h3s2hphd" path="res://char_select.gd" id="5_dg77c"]
+[ext_resource type="Texture2D" uid="uid://bb40a4uwgr1rx" path="res://art/Sunnyside_World_Assets/Characters/Human/IDLE/base_idle_strip9.png" id="5_kek77"]
+[ext_resource type="Texture2D" uid="uid://dl4vrsytnxw1x" path="res://art/Sunnyside_World_Assets/Characters/Human/IDLE/spikeyhair_idle_strip9.png" id="6_4c57u"]
+[ext_resource type="Texture2D" uid="uid://gn7o3vhqtxhh" path="res://art/Sunnyside_World_Assets/UI/sword.png" id="7_efxa6"]
+[ext_resource type="Texture2D" uid="uid://f5k1iepegl1x" path="res://art/Sunnyside_World_Assets/Characters/Human/IDLE/longhair_idle_strip9.png" id="8_dg77c"]
+[ext_resource type="Texture2D" uid="uid://cknjp0pinpou6" path="res://art/Sunnyside_World_Assets/UI/hand_open_01.png" id="9_ycdy4"]
+[ext_resource type="Texture2D" uid="uid://11t1xx8j3fn0" path="res://art/Sunnyside_World_Assets/Characters/Human/IDLE/curlyhair_idle_strip9.png" id="10_efxa6"]
+[ext_resource type="Texture2D" uid="uid://f8qhvixoqo4o" path="res://art/Sunnyside_World_Assets/UI/basket.png" id="11_dg77c"]
+[ext_resource type="Script" uid="uid://rwdk7kw1s3g7" path="res://game.gd" id="13_a6jrf"]
+[ext_resource type="Texture2D" uid="uid://dcwqrynti2n7t" path="res://art/Sunnyside_World_Assets/UI/expression_love.png" id="13_yaehf"]
+[ext_resource type="Texture2D" uid="uid://cktw5w3t2kufu" path="res://art/Sunnyside_World_Assets/UI/redbar_00.png" id="14_074og"]
+[ext_resource type="Texture2D" uid="uid://dc5bp3goi78ms" path="res://art/Sunnyside_World_Assets/UI/redbar_02.png" id="15_cegan"]
+[ext_resource type="Texture2D" uid="uid://1xh5xuwkgckp" path="res://art/Sunnyside_World_Assets/UI/redbar_04.png" id="17_getpj"]
+[ext_resource type="Texture2D" uid="uid://j8nasj7cbuma" path="res://art/Sunnyside_World_Assets/UI/redbar_06.png" id="18_074og"]
+[ext_resource type="Texture2D" uid="uid://cmecv3mywavoo" path="res://art/Sunnyside_World_Assets/UI/bluebar_00.png" id="19_d13ii"]
+[ext_resource type="Texture2D" uid="uid://dim8k340u8r8m" path="res://art/Sunnyside_World_Assets/UI/bluebar_01.png" id="20_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://cx83a8cn3xvro" path="res://art/Sunnyside_World_Assets/UI/bluebar_04.png" id="22_lswn8"]
+[ext_resource type="Texture2D" uid="uid://b4sm5gdrmu0un" path="res://art/Sunnyside_World_Assets/UI/greenbar_06-1.png" id="23_a6jrf"]
+[ext_resource type="Texture2D" uid="uid://cede73ls5r2t6" path="res://art/Sunnyside_World_Assets/UI/pickaxe.png" id="24_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://cxuwnhcchf8kv" path="res://art/Sunnyside_World_Assets/UI/9slice_box_white/lt_box_9slice_c.png" id="25_0odxb"]
+[ext_resource type="Script" uid="uid://bqno1vxrghuk0" path="res://menu.gd" id="25_lswn8"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
+texture = ExtResource("1_ig7tw")
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+16:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+38:0/0 = 0
+39:0/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+27:1/0 = 0
+28:1/0 = 0
+29:1/0 = 0
+30:1/0 = 0
+31:1/0 = 0
+32:1/0 = 0
+33:1/0 = 0
+34:1/0 = 0
+37:1/0 = 0
+38:1/0 = 0
+39:1/0 = 0
+40:1/0 = 0
+41:1/0 = 0
+42:1/0 = 0
+44:1/0 = 0
+45:1/0 = 0
+46:1/0 = 0
+47:1/0 = 0
+49:1/0 = 0
+50:1/0 = 0
+51:1/0 = 0
+52:1/0 = 0
+55:1/0 = 0
+56:1/0 = 0
+57:1/0 = 0
+58:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+19:2/0 = 0
+20:2/0 = 0
+21:2/0 = 0
+22:2/0 = 0
+23:2/0 = 0
+24:2/0 = 0
+25:2/0 = 0
+27:2/0 = 0
+28:2/0 = 0
+29:2/0 = 0
+30:2/0 = 0
+31:2/0 = 0
+32:2/0 = 0
+33:2/0 = 0
+34:2/0 = 0
+37:2/0 = 0
+38:2/0 = 0
+39:2/0 = 0
+40:2/0 = 0
+41:2/0 = 0
+42:2/0 = 0
+44:2/0 = 0
+45:2/0 = 0
+46:2/0 = 0
+47:2/0 = 0
+48:2/0 = 0
+49:2/0 = 0
+50:2/0 = 0
+51:2/0 = 0
+52:2/0 = 0
+55:2/0 = 0
+56:2/0 = 0
+57:2/0 = 0
+58:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+19:3/0 = 0
+20:3/0 = 0
+21:3/0 = 0
+22:3/0 = 0
+23:3/0 = 0
+24:3/0 = 0
+25:3/0 = 0
+27:3/0 = 0
+28:3/0 = 0
+29:3/0 = 0
+30:3/0 = 0
+31:3/0 = 0
+32:3/0 = 0
+33:3/0 = 0
+34:3/0 = 0
+35:3/0 = 0
+37:3/0 = 0
+39:3/0 = 0
+40:3/0 = 0
+41:3/0 = 0
+44:3/0 = 0
+45:3/0 = 0
+46:3/0 = 0
+47:3/0 = 0
+48:3/0 = 0
+49:3/0 = 0
+50:3/0 = 0
+52:3/0 = 0
+53:3/0 = 0
+54:3/0 = 0
+55:3/0 = 0
+56:3/0 = 0
+57:3/0 = 0
+58:3/0 = 0
+59:3/0 = 0
+60:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+22:4/0 = 0
+23:4/0 = 0
+24:4/0 = 0
+27:4/0 = 0
+28:4/0 = 0
+29:4/0 = 0
+30:4/0 = 0
+31:4/0 = 0
+32:4/0 = 0
+33:4/0 = 0
+34:4/0 = 0
+37:4/0 = 0
+38:4/0 = 0
+40:4/0 = 0
+44:4/0 = 0
+45:4/0 = 0
+46:4/0 = 0
+47:4/0 = 0
+48:4/0 = 0
+49:4/0 = 0
+50:4/0 = 0
+51:4/0 = 0
+52:4/0 = 0
+53:4/0 = 0
+54:4/0 = 0
+55:4/0 = 0
+56:4/0 = 0
+57:4/0 = 0
+58:4/0 = 0
+59:4/0 = 0
+60:4/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+14:5/0 = 0
+16:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+22:5/0 = 0
+23:5/0 = 0
+24:5/0 = 0
+27:5/0 = 0
+28:5/0 = 0
+29:5/0 = 0
+31:5/0 = 0
+32:5/0 = 0
+37:5/0 = 0
+38:5/0 = 0
+39:5/0 = 0
+40:5/0 = 0
+41:5/0 = 0
+44:5/0 = 0
+48:5/0 = 0
+49:5/0 = 0
+50:5/0 = 0
+52:5/0 = 0
+53:5/0 = 0
+54:5/0 = 0
+55:5/0 = 0
+56:5/0 = 0
+57:5/0 = 0
+58:5/0 = 0
+59:5/0 = 0
+60:5/0 = 0
+10:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+16:6/0 = 0
+19:6/0 = 0
+21:6/0 = 0
+22:6/0 = 0
+24:6/0 = 0
+26:6/0 = 0
+27:6/0 = 0
+28:6/0 = 0
+29:6/0 = 0
+30:6/0 = 0
+31:6/0 = 0
+32:6/0 = 0
+33:6/0 = 0
+34:6/0 = 0
+38:6/0 = 0
+40:6/0 = 0
+44:6/0 = 0
+49:6/0 = 0
+50:6/0 = 0
+51:6/0 = 0
+52:6/0 = 0
+53:6/0 = 0
+54:6/0 = 0
+55:6/0 = 0
+56:6/0 = 0
+57:6/0 = 0
+58:6/0 = 0
+59:6/0 = 0
+60:6/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+15:7/0 = 0
+16:7/0 = 0
+17:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+20:7/0 = 0
+21:7/0 = 0
+22:7/0 = 0
+23:7/0 = 0
+24:7/0 = 0
+25:7/0 = 0
+26:7/0 = 0
+27:7/0 = 0
+28:7/0 = 0
+29:7/0 = 0
+30:7/0 = 0
+31:7/0 = 0
+32:7/0 = 0
+33:7/0 = 0
+34:7/0 = 0
+35:7/0 = 0
+36:7/0 = 0
+37:7/0 = 0
+38:7/0 = 0
+39:7/0 = 0
+40:7/0 = 0
+41:7/0 = 0
+42:7/0 = 0
+43:7/0 = 0
+44:7/0 = 0
+45:7/0 = 0
+46:7/0 = 0
+47:7/0 = 0
+48:7/0 = 0
+49:7/0 = 0
+50:7/0 = 0
+51:7/0 = 0
+52:7/0 = 0
+53:7/0 = 0
+54:7/0 = 0
+55:7/0 = 0
+56:7/0 = 0
+57:7/0 = 0
+58:7/0 = 0
+59:7/0 = 0
+60:7/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+16:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+20:8/0 = 0
+21:8/0 = 0
+22:8/0 = 0
+23:8/0 = 0
+24:8/0 = 0
+25:8/0 = 0
+26:8/0 = 0
+27:8/0 = 0
+28:8/0 = 0
+29:8/0 = 0
+30:8/0 = 0
+31:8/0 = 0
+32:8/0 = 0
+33:8/0 = 0
+34:8/0 = 0
+35:8/0 = 0
+36:8/0 = 0
+37:8/0 = 0
+38:8/0 = 0
+39:8/0 = 0
+40:8/0 = 0
+42:8/0 = 0
+43:8/0 = 0
+44:8/0 = 0
+45:8/0 = 0
+46:8/0 = 0
+48:8/0 = 0
+49:8/0 = 0
+50:8/0 = 0
+51:8/0 = 0
+52:8/0 = 0
+55:8/0 = 0
+56:8/0 = 0
+57:8/0 = 0
+58:8/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+15:9/0 = 0
+16:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+21:9/0 = 0
+22:9/0 = 0
+23:9/0 = 0
+24:9/0 = 0
+25:9/0 = 0
+26:9/0 = 0
+27:9/0 = 0
+28:9/0 = 0
+29:9/0 = 0
+30:9/0 = 0
+31:9/0 = 0
+32:9/0 = 0
+33:9/0 = 0
+34:9/0 = 0
+35:9/0 = 0
+36:9/0 = 0
+37:9/0 = 0
+38:9/0 = 0
+39:9/0 = 0
+40:9/0 = 0
+43:9/0 = 0
+55:9/0 = 0
+56:9/0 = 0
+57:9/0 = 0
+58:9/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+11:10/0 = 0
+12:10/0 = 0
+13:10/0 = 0
+15:10/0 = 0
+16:10/0 = 0
+17:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+21:10/0 = 0
+22:10/0 = 0
+23:10/0 = 0
+24:10/0 = 0
+25:10/0 = 0
+26:10/0 = 0
+27:10/0 = 0
+28:10/0 = 0
+29:10/0 = 0
+30:10/0 = 0
+31:10/0 = 0
+32:10/0 = 0
+33:10/0 = 0
+34:10/0 = 0
+35:10/0 = 0
+36:10/0 = 0
+37:10/0 = 0
+38:10/0 = 0
+39:10/0 = 0
+40:10/0 = 0
+43:10/0 = 0
+44:10/0 = 0
+45:10/0 = 0
+46:10/0 = 0
+48:10/0 = 0
+49:10/0 = 0
+50:10/0 = 0
+51:10/0 = 0
+52:10/0 = 0
+53:10/0 = 0
+54:10/0 = 0
+55:10/0 = 0
+56:10/0 = 0
+57:10/0 = 0
+58:10/0 = 0
+59:10/0 = 0
+60:10/0 = 0
+61:10/0 = 0
+62:10/0 = 0
+63:10/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+12:11/0 = 0
+13:11/0 = 0
+14:11/0 = 0
+15:11/0 = 0
+16:11/0 = 0
+17:11/0 = 0
+18:11/0 = 0
+19:11/0 = 0
+20:11/0 = 0
+21:11/0 = 0
+22:11/0 = 0
+23:11/0 = 0
+24:11/0 = 0
+25:11/0 = 0
+26:11/0 = 0
+27:11/0 = 0
+28:11/0 = 0
+30:11/0 = 0
+32:11/0 = 0
+33:11/0 = 0
+34:11/0 = 0
+36:11/0 = 0
+37:11/0 = 0
+38:11/0 = 0
+39:11/0 = 0
+40:11/0 = 0
+41:11/0 = 0
+42:11/0 = 0
+43:11/0 = 0
+48:11/0 = 0
+49:11/0 = 0
+50:11/0 = 0
+51:11/0 = 0
+52:11/0 = 0
+53:11/0 = 0
+54:11/0 = 0
+55:11/0 = 0
+56:11/0 = 0
+57:11/0 = 0
+58:11/0 = 0
+59:11/0 = 0
+60:11/0 = 0
+61:11/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+10:12/0 = 0
+12:12/0 = 0
+13:12/0 = 0
+14:12/0 = 0
+15:12/0 = 0
+16:12/0 = 0
+17:12/0 = 0
+18:12/0 = 0
+19:12/0 = 0
+20:12/0 = 0
+21:12/0 = 0
+22:12/0 = 0
+23:12/0 = 0
+24:12/0 = 0
+25:12/0 = 0
+26:12/0 = 0
+27:12/0 = 0
+28:12/0 = 0
+29:12/0 = 0
+30:12/0 = 0
+31:12/0 = 0
+32:12/0 = 0
+33:12/0 = 0
+34:12/0 = 0
+37:12/0 = 0
+38:12/0 = 0
+39:12/0 = 0
+40:12/0 = 0
+41:12/0 = 0
+42:12/0 = 0
+43:12/0 = 0
+45:12/0 = 0
+46:12/0 = 0
+47:12/0 = 0
+48:12/0 = 0
+49:12/0 = 0
+50:12/0 = 0
+51:12/0 = 0
+52:12/0 = 0
+53:12/0 = 0
+54:12/0 = 0
+55:12/0 = 0
+56:12/0 = 0
+57:12/0 = 0
+58:12/0 = 0
+59:12/0 = 0
+60:12/0 = 0
+61:12/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+9:13/0 = 0
+12:13/0 = 0
+13:13/0 = 0
+14:13/0 = 0
+15:13/0 = 0
+16:13/0 = 0
+17:13/0 = 0
+18:13/0 = 0
+19:13/0 = 0
+20:13/0 = 0
+21:13/0 = 0
+22:13/0 = 0
+23:13/0 = 0
+24:13/0 = 0
+25:13/0 = 0
+26:13/0 = 0
+27:13/0 = 0
+28:13/0 = 0
+29:13/0 = 0
+30:13/0 = 0
+31:13/0 = 0
+32:13/0 = 0
+33:13/0 = 0
+34:13/0 = 0
+38:13/0 = 0
+39:13/0 = 0
+40:13/0 = 0
+41:13/0 = 0
+42:13/0 = 0
+43:13/0 = 0
+44:13/0 = 0
+45:13/0 = 0
+46:13/0 = 0
+47:13/0 = 0
+49:13/0 = 0
+50:13/0 = 0
+51:13/0 = 0
+52:13/0 = 0
+53:13/0 = 0
+54:13/0 = 0
+55:13/0 = 0
+56:13/0 = 0
+57:13/0 = 0
+58:13/0 = 0
+59:13/0 = 0
+60:13/0 = 0
+61:13/0 = 0
+12:14/0 = 0
+13:14/0 = 0
+15:14/0 = 0
+16:14/0 = 0
+17:14/0 = 0
+18:14/0 = 0
+19:14/0 = 0
+20:14/0 = 0
+22:14/0 = 0
+23:14/0 = 0
+24:14/0 = 0
+25:14/0 = 0
+26:14/0 = 0
+27:14/0 = 0
+28:14/0 = 0
+30:14/0 = 0
+39:14/0 = 0
+40:14/0 = 0
+49:14/0 = 0
+51:14/0 = 0
+53:14/0 = 0
+54:14/0 = 0
+55:14/0 = 0
+57:14/0 = 0
+59:14/0 = 0
+60:14/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+10:15/0 = 0
+11:15/0 = 0
+12:15/0 = 0
+13:15/0 = 0
+14:15/0 = 0
+16:15/0 = 0
+18:15/0 = 0
+19:15/0 = 0
+20:15/0 = 0
+21:15/0 = 0
+22:15/0 = 0
+23:15/0 = 0
+24:15/0 = 0
+25:15/0 = 0
+26:15/0 = 0
+27:15/0 = 0
+28:15/0 = 0
+29:15/0 = 0
+30:15/0 = 0
+31:15/0 = 0
+41:15/0 = 0
+43:15/0 = 0
+44:15/0 = 0
+45:15/0 = 0
+46:15/0 = 0
+47:15/0 = 0
+49:15/0 = 0
+50:15/0 = 0
+51:15/0 = 0
+52:15/0 = 0
+53:15/0 = 0
+54:15/0 = 0
+55:15/0 = 0
+56:15/0 = 0
+57:15/0 = 0
+58:15/0 = 0
+59:15/0 = 0
+60:15/0 = 0
+61:15/0 = 0
+1:16/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+10:16/0 = 0
+11:16/0 = 0
+12:16/0 = 0
+13:16/0 = 0
+14:16/0 = 0
+36:16/0 = 0
+37:16/0 = 0
+38:16/0 = 0
+39:16/0 = 0
+40:16/0 = 0
+41:16/0 = 0
+43:16/0 = 0
+44:16/0 = 0
+45:16/0 = 0
+46:16/0 = 0
+47:16/0 = 0
+51:16/0 = 0
+52:16/0 = 0
+53:16/0 = 0
+54:16/0 = 0
+55:16/0 = 0
+56:16/0 = 0
+57:16/0 = 0
+58:16/0 = 0
+59:16/0 = 0
+60:16/0 = 0
+15:17/0 = 0
+16:17/0 = 0
+17:17/0 = 0
+19:17/0 = 0
+20:17/0 = 0
+21:17/0 = 0
+22:17/0 = 0
+23:17/0 = 0
+24:17/0 = 0
+25:17/0 = 0
+26:17/0 = 0
+27:17/0 = 0
+28:17/0 = 0
+29:17/0 = 0
+30:17/0 = 0
+31:17/0 = 0
+32:17/0 = 0
+33:17/0 = 0
+34:17/0 = 0
+37:17/0 = 0
+38:17/0 = 0
+39:17/0 = 0
+40:17/0 = 0
+42:17/0 = 0
+43:17/0 = 0
+44:17/0 = 0
+45:17/0 = 0
+46:17/0 = 0
+47:17/0 = 0
+50:17/0 = 0
+51:17/0 = 0
+52:17/0 = 0
+53:17/0 = 0
+54:17/0 = 0
+55:17/0 = 0
+56:17/0 = 0
+57:17/0 = 0
+58:17/0 = 0
+59:17/0 = 0
+60:17/0 = 0
+61:17/0 = 0
+1:18/0 = 0
+2:18/0 = 0
+3:18/0 = 0
+4:18/0 = 0
+5:18/0 = 0
+6:18/0 = 0
+7:18/0 = 0
+8:18/0 = 0
+11:18/0 = 0
+12:18/0 = 0
+13:18/0 = 0
+14:18/0 = 0
+15:18/0 = 0
+17:18/0 = 0
+18:18/0 = 0
+19:18/0 = 0
+20:18/0 = 0
+21:18/0 = 0
+22:18/0 = 0
+23:18/0 = 0
+24:18/0 = 0
+25:18/0 = 0
+26:18/0 = 0
+27:18/0 = 0
+28:18/0 = 0
+29:18/0 = 0
+30:18/0 = 0
+31:18/0 = 0
+32:18/0 = 0
+33:18/0 = 0
+34:18/0 = 0
+37:18/0 = 0
+38:18/0 = 0
+39:18/0 = 0
+40:18/0 = 0
+41:18/0 = 0
+42:18/0 = 0
+44:18/0 = 0
+45:18/0 = 0
+1:19/0 = 0
+2:19/0 = 0
+3:19/0 = 0
+4:19/0 = 0
+5:19/0 = 0
+6:19/0 = 0
+7:19/0 = 0
+11:19/0 = 0
+12:19/0 = 0
+13:19/0 = 0
+14:19/0 = 0
+15:19/0 = 0
+17:19/0 = 0
+18:19/0 = 0
+19:19/0 = 0
+20:19/0 = 0
+21:19/0 = 0
+22:19/0 = 0
+23:19/0 = 0
+24:19/0 = 0
+25:19/0 = 0
+26:19/0 = 0
+27:19/0 = 0
+28:19/0 = 0
+30:19/0 = 0
+32:19/0 = 0
+33:19/0 = 0
+34:19/0 = 0
+37:19/0 = 0
+38:19/0 = 0
+40:19/0 = 0
+41:19/0 = 0
+44:19/0 = 0
+45:19/0 = 0
+46:19/0 = 0
+47:19/0 = 0
+49:19/0 = 0
+50:19/0 = 0
+51:19/0 = 0
+52:19/0 = 0
+56:19/0 = 0
+57:19/0 = 0
+58:19/0 = 0
+59:19/0 = 0
+60:19/0 = 0
+61:19/0 = 0
+11:20/0 = 0
+12:20/0 = 0
+13:20/0 = 0
+14:20/0 = 0
+15:20/0 = 0
+16:20/0 = 0
+17:20/0 = 0
+18:20/0 = 0
+19:20/0 = 0
+20:20/0 = 0
+21:20/0 = 0
+22:20/0 = 0
+23:20/0 = 0
+24:20/0 = 0
+25:20/0 = 0
+26:20/0 = 0
+27:20/0 = 0
+28:20/0 = 0
+29:20/0 = 0
+30:20/0 = 0
+31:20/0 = 0
+32:20/0 = 0
+33:20/0 = 0
+34:20/0 = 0
+37:20/0 = 0
+38:20/0 = 0
+39:20/0 = 0
+40:20/0 = 0
+41:20/0 = 0
+44:20/0 = 0
+45:20/0 = 0
+46:20/0 = 0
+47:20/0 = 0
+50:20/0 = 0
+51:20/0 = 0
+52:20/0 = 0
+1:21/0 = 0
+2:21/0 = 0
+3:21/0 = 0
+4:21/0 = 0
+5:21/0 = 0
+6:21/0 = 0
+7:21/0 = 0
+8:21/0 = 0
+11:21/0 = 0
+12:21/0 = 0
+13:21/0 = 0
+14:21/0 = 0
+15:21/0 = 0
+16:21/0 = 0
+17:21/0 = 0
+18:21/0 = 0
+19:21/0 = 0
+20:21/0 = 0
+21:21/0 = 0
+22:21/0 = 0
+23:21/0 = 0
+24:21/0 = 0
+25:21/0 = 0
+26:21/0 = 0
+27:21/0 = 0
+28:21/0 = 0
+29:21/0 = 0
+30:21/0 = 0
+31:21/0 = 0
+32:21/0 = 0
+33:21/0 = 0
+34:21/0 = 0
+37:21/0 = 0
+38:21/0 = 0
+40:21/0 = 0
+41:21/0 = 0
+44:21/0 = 0
+45:21/0 = 0
+46:21/0 = 0
+47:21/0 = 0
+49:21/0 = 0
+50:21/0 = 0
+51:21/0 = 0
+52:21/0 = 0
+53:21/0 = 0
+54:21/0 = 0
+1:22/0 = 0
+2:22/0 = 0
+3:22/0 = 0
+4:22/0 = 0
+5:22/0 = 0
+6:22/0 = 0
+7:22/0 = 0
+11:22/0 = 0
+12:22/0 = 0
+13:22/0 = 0
+14:22/0 = 0
+15:22/0 = 0
+16:22/0 = 0
+17:22/0 = 0
+18:22/0 = 0
+19:22/0 = 0
+20:22/0 = 0
+22:22/0 = 0
+23:22/0 = 0
+24:22/0 = 0
+25:22/0 = 0
+26:22/0 = 0
+27:22/0 = 0
+28:22/0 = 0
+30:22/0 = 0
+37:22/0 = 0
+38:22/0 = 0
+49:22/0 = 0
+50:22/0 = 0
+51:22/0 = 0
+52:22/0 = 0
+53:22/0 = 0
+54:22/0 = 0
+55:22/0 = 0
+16:23/0 = 0
+18:23/0 = 0
+19:23/0 = 0
+20:23/0 = 0
+21:23/0 = 0
+22:23/0 = 0
+23:23/0 = 0
+24:23/0 = 0
+25:23/0 = 0
+26:23/0 = 0
+27:23/0 = 0
+28:23/0 = 0
+29:23/0 = 0
+30:23/0 = 0
+31:23/0 = 0
+35:23/0 = 0
+36:23/0 = 0
+37:23/0 = 0
+38:23/0 = 0
+39:23/0 = 0
+40:23/0 = 0
+41:23/0 = 0
+42:23/0 = 0
+43:23/0 = 0
+44:23/0 = 0
+45:23/0 = 0
+46:23/0 = 0
+49:23/0 = 0
+50:23/0 = 0
+51:23/0 = 0
+52:23/0 = 0
+53:23/0 = 0
+54:23/0 = 0
+1:24/0 = 0
+2:24/0 = 0
+3:24/0 = 0
+4:24/0 = 0
+5:24/0 = 0
+6:24/0 = 0
+7:24/0 = 0
+8:24/0 = 0
+35:24/0 = 0
+36:24/0 = 0
+37:24/0 = 0
+38:24/0 = 0
+39:24/0 = 0
+40:24/0 = 0
+41:24/0 = 0
+42:24/0 = 0
+43:24/0 = 0
+44:24/0 = 0
+45:24/0 = 0
+46:24/0 = 0
+49:24/0 = 0
+50:24/0 = 0
+51:24/0 = 0
+52:24/0 = 0
+53:24/0 = 0
+54:24/0 = 0
+55:24/0 = 0
+1:25/0 = 0
+2:25/0 = 0
+3:25/0 = 0
+4:25/0 = 0
+5:25/0 = 0
+6:25/0 = 0
+7:25/0 = 0
+15:25/0 = 0
+16:25/0 = 0
+17:25/0 = 0
+19:25/0 = 0
+20:25/0 = 0
+21:25/0 = 0
+22:25/0 = 0
+23:25/0 = 0
+24:25/0 = 0
+25:25/0 = 0
+26:25/0 = 0
+27:25/0 = 0
+28:25/0 = 0
+29:25/0 = 0
+30:25/0 = 0
+31:25/0 = 0
+32:25/0 = 0
+33:25/0 = 0
+34:25/0 = 0
+36:25/0 = 0
+37:25/0 = 0
+39:25/0 = 0
+40:25/0 = 0
+42:25/0 = 0
+43:25/0 = 0
+45:25/0 = 0
+46:25/0 = 0
+49:25/0 = 0
+50:25/0 = 0
+51:25/0 = 0
+52:25/0 = 0
+53:25/0 = 0
+54:25/0 = 0
+15:26/0 = 0
+17:26/0 = 0
+18:26/0 = 0
+19:26/0 = 0
+20:26/0 = 0
+21:26/0 = 0
+22:26/0 = 0
+23:26/0 = 0
+24:26/0 = 0
+25:26/0 = 0
+26:26/0 = 0
+27:26/0 = 0
+28:26/0 = 0
+29:26/0 = 0
+30:26/0 = 0
+31:26/0 = 0
+32:26/0 = 0
+33:26/0 = 0
+34:26/0 = 0
+36:26/0 = 0
+37:26/0 = 0
+39:26/0 = 0
+40:26/0 = 0
+42:26/0 = 0
+43:26/0 = 0
+45:26/0 = 0
+46:26/0 = 0
+49:26/0 = 0
+50:26/0 = 0
+51:26/0 = 0
+52:26/0 = 0
+53:26/0 = 0
+54:26/0 = 0
+55:26/0 = 0
+15:27/0 = 0
+17:27/0 = 0
+18:27/0 = 0
+19:27/0 = 0
+20:27/0 = 0
+21:27/0 = 0
+22:27/0 = 0
+23:27/0 = 0
+24:27/0 = 0
+25:27/0 = 0
+26:27/0 = 0
+27:27/0 = 0
+28:27/0 = 0
+30:27/0 = 0
+32:27/0 = 0
+33:27/0 = 0
+34:27/0 = 0
+36:27/0 = 0
+37:27/0 = 0
+39:27/0 = 0
+40:27/0 = 0
+42:27/0 = 0
+43:27/0 = 0
+45:27/0 = 0
+46:27/0 = 0
+49:27/0 = 0
+50:27/0 = 0
+51:27/0 = 0
+52:27/0 = 0
+53:27/0 = 0
+54:27/0 = 0
+1:28/0 = 0
+2:28/0 = 0
+3:28/0 = 0
+5:28/0 = 0
+6:28/0 = 0
+7:28/0 = 0
+10:28/0 = 0
+11:28/0 = 0
+12:28/0 = 0
+15:28/0 = 0
+16:28/0 = 0
+17:28/0 = 0
+18:28/0 = 0
+19:28/0 = 0
+20:28/0 = 0
+21:28/0 = 0
+22:28/0 = 0
+23:28/0 = 0
+24:28/0 = 0
+25:28/0 = 0
+26:28/0 = 0
+27:28/0 = 0
+28:28/0 = 0
+29:28/0 = 0
+30:28/0 = 0
+31:28/0 = 0
+32:28/0 = 0
+33:28/0 = 0
+34:28/0 = 0
+36:28/0 = 0
+37:28/0 = 0
+39:28/0 = 0
+40:28/0 = 0
+42:28/0 = 0
+43:28/0 = 0
+45:28/0 = 0
+46:28/0 = 0
+49:28/0 = 0
+50:28/0 = 0
+51:28/0 = 0
+52:28/0 = 0
+53:28/0 = 0
+54:28/0 = 0
+55:28/0 = 0
+1:29/0 = 0
+2:29/0 = 0
+3:29/0 = 0
+4:29/0 = 0
+5:29/0 = 0
+6:29/0 = 0
+7:29/0 = 0
+8:29/0 = 0
+9:29/0 = 0
+10:29/0 = 0
+11:29/0 = 0
+12:29/0 = 0
+13:29/0 = 0
+15:29/0 = 0
+16:29/0 = 0
+17:29/0 = 0
+18:29/0 = 0
+19:29/0 = 0
+20:29/0 = 0
+21:29/0 = 0
+22:29/0 = 0
+23:29/0 = 0
+24:29/0 = 0
+25:29/0 = 0
+26:29/0 = 0
+27:29/0 = 0
+28:29/0 = 0
+29:29/0 = 0
+30:29/0 = 0
+31:29/0 = 0
+32:29/0 = 0
+33:29/0 = 0
+34:29/0 = 0
+37:29/0 = 0
+39:29/0 = 0
+40:29/0 = 0
+49:29/0 = 0
+50:29/0 = 0
+51:29/0 = 0
+52:29/0 = 0
+53:29/0 = 0
+54:29/0 = 0
+1:30/0 = 0
+2:30/0 = 0
+3:30/0 = 0
+4:30/0 = 0
+5:30/0 = 0
+6:30/0 = 0
+7:30/0 = 0
+8:30/0 = 0
+9:30/0 = 0
+10:30/0 = 0
+11:30/0 = 0
+12:30/0 = 0
+13:30/0 = 0
+15:30/0 = 0
+16:30/0 = 0
+17:30/0 = 0
+18:30/0 = 0
+19:30/0 = 0
+20:30/0 = 0
+21:30/0 = 0
+22:30/0 = 0
+23:30/0 = 0
+24:30/0 = 0
+25:30/0 = 0
+26:30/0 = 0
+27:30/0 = 0
+28:30/0 = 0
+30:30/0 = 0
+36:30/0 = 0
+37:30/0 = 0
+38:30/0 = 0
+39:30/0 = 0
+40:30/0 = 0
+41:30/0 = 0
+49:30/0 = 0
+50:30/0 = 0
+51:30/0 = 0
+52:30/0 = 0
+53:30/0 = 0
+54:30/0 = 0
+55:30/0 = 0
+1:31/0 = 0
+2:31/0 = 0
+3:31/0 = 0
+4:31/0 = 0
+5:31/0 = 0
+6:31/0 = 0
+7:31/0 = 0
+8:31/0 = 0
+9:31/0 = 0
+10:31/0 = 0
+11:31/0 = 0
+12:31/0 = 0
+13:31/0 = 0
+16:31/0 = 0
+18:31/0 = 0
+19:31/0 = 0
+20:31/0 = 0
+21:31/0 = 0
+22:31/0 = 0
+23:31/0 = 0
+24:31/0 = 0
+25:31/0 = 0
+26:31/0 = 0
+27:31/0 = 0
+28:31/0 = 0
+29:31/0 = 0
+30:31/0 = 0
+31:31/0 = 0
+36:31/0 = 0
+37:31/0 = 0
+38:31/0 = 0
+39:31/0 = 0
+52:31/0 = 0
+1:32/0 = 0
+2:32/0 = 0
+3:32/0 = 0
+5:32/0 = 0
+6:32/0 = 0
+7:32/0 = 0
+9:32/0 = 0
+10:32/0 = 0
+11:32/0 = 0
+12:32/0 = 0
+13:32/0 = 0
+46:32/0 = 0
+47:32/0 = 0
+48:32/0 = 0
+49:32/0 = 0
+50:32/0 = 0
+51:32/0 = 0
+52:32/0 = 0
+53:32/0 = 0
+54:32/0 = 0
+5:33/0 = 0
+6:33/0 = 0
+7:33/0 = 0
+11:33/0 = 0
+12:33/0 = 0
+13:33/0 = 0
+15:33/0 = 0
+16:33/0 = 0
+17:33/0 = 0
+19:33/0 = 0
+20:33/0 = 0
+21:33/0 = 0
+22:33/0 = 0
+23:33/0 = 0
+24:33/0 = 0
+25:33/0 = 0
+26:33/0 = 0
+27:33/0 = 0
+28:33/0 = 0
+29:33/0 = 0
+30:33/0 = 0
+31:33/0 = 0
+32:33/0 = 0
+33:33/0 = 0
+34:33/0 = 0
+39:33/0 = 0
+40:33/0 = 0
+41:33/0 = 0
+42:33/0 = 0
+43:33/0 = 0
+44:33/0 = 0
+45:33/0 = 0
+46:33/0 = 0
+47:33/0 = 0
+48:33/0 = 0
+49:33/0 = 0
+50:33/0 = 0
+51:33/0 = 0
+52:33/0 = 0
+53:33/0 = 0
+54:33/0 = 0
+4:34/0 = 0
+5:34/0 = 0
+6:34/0 = 0
+7:34/0 = 0
+8:34/0 = 0
+15:34/0 = 0
+17:34/0 = 0
+18:34/0 = 0
+19:34/0 = 0
+20:34/0 = 0
+21:34/0 = 0
+22:34/0 = 0
+23:34/0 = 0
+24:34/0 = 0
+25:34/0 = 0
+26:34/0 = 0
+27:34/0 = 0
+28:34/0 = 0
+29:34/0 = 0
+30:34/0 = 0
+31:34/0 = 0
+32:34/0 = 0
+33:34/0 = 0
+34:34/0 = 0
+39:34/0 = 0
+40:34/0 = 0
+41:34/0 = 0
+42:34/0 = 0
+43:34/0 = 0
+44:34/0 = 0
+45:34/0 = 0
+46:34/0 = 0
+47:34/0 = 0
+48:34/0 = 0
+49:34/0 = 0
+50:34/0 = 0
+51:34/0 = 0
+52:34/0 = 0
+53:34/0 = 0
+54:34/0 = 0
+4:35/0 = 0
+5:35/0 = 0
+6:35/0 = 0
+7:35/0 = 0
+8:35/0 = 0
+15:35/0 = 0
+17:35/0 = 0
+18:35/0 = 0
+19:35/0 = 0
+20:35/0 = 0
+21:35/0 = 0
+22:35/0 = 0
+23:35/0 = 0
+24:35/0 = 0
+25:35/0 = 0
+26:35/0 = 0
+27:35/0 = 0
+28:35/0 = 0
+30:35/0 = 0
+32:35/0 = 0
+33:35/0 = 0
+34:35/0 = 0
+39:35/0 = 0
+40:35/0 = 0
+41:35/0 = 0
+42:35/0 = 0
+43:35/0 = 0
+44:35/0 = 0
+45:35/0 = 0
+47:35/0 = 0
+49:35/0 = 0
+50:35/0 = 0
+51:35/0 = 0
+4:36/0 = 0
+5:36/0 = 0
+6:36/0 = 0
+7:36/0 = 0
+8:36/0 = 0
+15:36/0 = 0
+16:36/0 = 0
+17:36/0 = 0
+18:36/0 = 0
+19:36/0 = 0
+20:36/0 = 0
+21:36/0 = 0
+22:36/0 = 0
+23:36/0 = 0
+24:36/0 = 0
+25:36/0 = 0
+26:36/0 = 0
+27:36/0 = 0
+28:36/0 = 0
+29:36/0 = 0
+30:36/0 = 0
+31:36/0 = 0
+32:36/0 = 0
+33:36/0 = 0
+34:36/0 = 0
+39:36/0 = 0
+40:36/0 = 0
+41:36/0 = 0
+42:36/0 = 0
+43:36/0 = 0
+44:36/0 = 0
+45:36/0 = 0
+46:36/0 = 0
+47:36/0 = 0
+48:36/0 = 0
+49:36/0 = 0
+50:36/0 = 0
+51:36/0 = 0
+5:37/0 = 0
+6:37/0 = 0
+7:37/0 = 0
+15:37/0 = 0
+16:37/0 = 0
+17:37/0 = 0
+18:37/0 = 0
+19:37/0 = 0
+20:37/0 = 0
+21:37/0 = 0
+22:37/0 = 0
+23:37/0 = 0
+24:37/0 = 0
+25:37/0 = 0
+26:37/0 = 0
+27:37/0 = 0
+28:37/0 = 0
+29:37/0 = 0
+30:37/0 = 0
+31:37/0 = 0
+32:37/0 = 0
+33:37/0 = 0
+34:37/0 = 0
+37:37/0 = 0
+38:37/0 = 0
+39:37/0 = 0
+40:37/0 = 0
+41:37/0 = 0
+42:37/0 = 0
+43:37/0 = 0
+44:37/0 = 0
+45:37/0 = 0
+47:37/0 = 0
+49:37/0 = 0
+50:37/0 = 0
+51:37/0 = 0
+15:38/0 = 0
+16:38/0 = 0
+17:38/0 = 0
+18:38/0 = 0
+19:38/0 = 0
+20:38/0 = 0
+22:38/0 = 0
+23:38/0 = 0
+24:38/0 = 0
+25:38/0 = 0
+26:38/0 = 0
+27:38/0 = 0
+28:38/0 = 0
+30:38/0 = 0
+37:38/0 = 0
+38:38/0 = 0
+39:38/0 = 0
+40:38/0 = 0
+41:38/0 = 0
+42:38/0 = 0
+16:39/0 = 0
+18:39/0 = 0
+19:39/0 = 0
+20:39/0 = 0
+21:39/0 = 0
+22:39/0 = 0
+23:39/0 = 0
+24:39/0 = 0
+25:39/0 = 0
+26:39/0 = 0
+27:39/0 = 0
+28:39/0 = 0
+29:39/0 = 0
+30:39/0 = 0
+31:39/0 = 0
+37:39/0 = 0
+38:39/0 = 0
+39:39/0 = 0
+37:40/0 = 0
+39:40/0 = 0
+15:41/0 = 0
+16:41/0 = 0
+17:41/0 = 0
+19:41/0 = 0
+20:41/0 = 0
+21:41/0 = 0
+22:41/0 = 0
+23:41/0 = 0
+24:41/0 = 0
+25:41/0 = 0
+26:41/0 = 0
+27:41/0 = 0
+28:41/0 = 0
+29:41/0 = 0
+30:41/0 = 0
+31:41/0 = 0
+32:41/0 = 0
+33:41/0 = 0
+34:41/0 = 0
+37:41/0 = 0
+38:41/0 = 0
+39:41/0 = 0
+15:42/0 = 0
+17:42/0 = 0
+18:42/0 = 0
+19:42/0 = 0
+20:42/0 = 0
+21:42/0 = 0
+22:42/0 = 0
+23:42/0 = 0
+24:42/0 = 0
+25:42/0 = 0
+26:42/0 = 0
+27:42/0 = 0
+28:42/0 = 0
+29:42/0 = 0
+30:42/0 = 0
+31:42/0 = 0
+32:42/0 = 0
+33:42/0 = 0
+34:42/0 = 0
+37:42/0 = 0
+38:42/0 = 0
+39:42/0 = 0
+15:43/0 = 0
+17:43/0 = 0
+18:43/0 = 0
+19:43/0 = 0
+20:43/0 = 0
+21:43/0 = 0
+22:43/0 = 0
+23:43/0 = 0
+24:43/0 = 0
+25:43/0 = 0
+26:43/0 = 0
+27:43/0 = 0
+28:43/0 = 0
+30:43/0 = 0
+32:43/0 = 0
+33:43/0 = 0
+34:43/0 = 0
+15:44/0 = 0
+16:44/0 = 0
+17:44/0 = 0
+18:44/0 = 0
+19:44/0 = 0
+20:44/0 = 0
+21:44/0 = 0
+22:44/0 = 0
+23:44/0 = 0
+24:44/0 = 0
+25:44/0 = 0
+26:44/0 = 0
+27:44/0 = 0
+28:44/0 = 0
+29:44/0 = 0
+30:44/0 = 0
+31:44/0 = 0
+32:44/0 = 0
+33:44/0 = 0
+34:44/0 = 0
+38:44/0 = 0
+39:44/0 = 0
+40:44/0 = 0
+41:44/0 = 0
+42:44/0 = 0
+43:44/0 = 0
+44:44/0 = 0
+45:44/0 = 0
+15:45/0 = 0
+16:45/0 = 0
+17:45/0 = 0
+18:45/0 = 0
+19:45/0 = 0
+20:45/0 = 0
+21:45/0 = 0
+22:45/0 = 0
+23:45/0 = 0
+24:45/0 = 0
+25:45/0 = 0
+26:45/0 = 0
+27:45/0 = 0
+28:45/0 = 0
+29:45/0 = 0
+30:45/0 = 0
+31:45/0 = 0
+32:45/0 = 0
+33:45/0 = 0
+34:45/0 = 0
+38:45/0 = 0
+39:45/0 = 0
+40:45/0 = 0
+41:45/0 = 0
+42:45/0 = 0
+43:45/0 = 0
+44:45/0 = 0
+45:45/0 = 0
+15:46/0 = 0
+16:46/0 = 0
+17:46/0 = 0
+18:46/0 = 0
+19:46/0 = 0
+20:46/0 = 0
+22:46/0 = 0
+23:46/0 = 0
+24:46/0 = 0
+25:46/0 = 0
+26:46/0 = 0
+27:46/0 = 0
+28:46/0 = 0
+30:46/0 = 0
+38:46/0 = 0
+39:46/0 = 0
+40:46/0 = 0
+41:46/0 = 0
+42:46/0 = 0
+43:46/0 = 0
+44:46/0 = 0
+45:46/0 = 0
+16:47/0 = 0
+18:47/0 = 0
+19:47/0 = 0
+20:47/0 = 0
+21:47/0 = 0
+22:47/0 = 0
+23:47/0 = 0
+24:47/0 = 0
+25:47/0 = 0
+26:47/0 = 0
+27:47/0 = 0
+28:47/0 = 0
+29:47/0 = 0
+30:47/0 = 0
+31:47/0 = 0
+37:47/0 = 0
+38:47/0 = 0
+39:47/0 = 0
+40:47/0 = 0
+41:47/0 = 0
+42:47/0 = 0
+43:47/0 = 0
+44:47/0 = 0
+45:47/0 = 0
+37:48/0 = 0
+38:48/0 = 0
+39:48/0 = 0
+40:48/0 = 0
+41:48/0 = 0
+42:48/0 = 0
+43:48/0 = 0
+44:48/0 = 0
+38:49/0 = 0
+39:49/0 = 0
+40:49/0 = 0
+41:49/0 = 0
+42:49/0 = 0
+43:49/0 = 0
+53:40/0 = 0
+49:40/0 = 0
+47:40/0 = 0
+48:40/0 = 0
+49:41/0 = 0
+50:41/0 = 0
+51:41/0 = 0
+52:41/0 = 0
+53:41/0 = 0
+54:42/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_h2yge"]
+sources/0 = SubResource("TileSetAtlasSource_0xm2m")
+
+[sub_resource type="LabelSettings" id="LabelSettings_272bh"]
+font_size = 100
+outline_size = 15
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_5vw27"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kek77"]
+font = SubResource("FontVariation_5vw27")
+font_size = 37
+outline_size = 15
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_1bvp3"]
+resource_name = "PickaxeFloat"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Axes:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.0333333, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -165), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_lquwl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Axes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-17, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7mycd"]
+_data = {
+&"PickaxeFloat": SubResource("Animation_1bvp3"),
+&"RESET": SubResource("Animation_lquwl")
+}
+
+[sub_resource type="Animation" id="Animation_w48qg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Hair:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [3]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Weapon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(9.33334, 0.33333206)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Weapon2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-5.666626, 5.6666565)]
+}
+
+[sub_resource type="Animation" id="Animation_vivmo"]
+resource_name = "idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 3, 0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Hair:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 4, 0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Weapon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [Vector2(9.33334, 0.33333206), Vector2(9.33334, 1.6666603), Vector2(9.333, 0.333)]
+}
+
+[sub_resource type="Animation" id="Animation_2cqfq"]
+resource_name = "idle_2"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 3, 0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Hair:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 3, 0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Weapon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [Vector2(7.333, 2.333), Vector2(7.333, 3), Vector2(7.333, 2.333)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Weapon2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-5.666626, 5.6666565), Vector2(-5.666626, 6.6666565), Vector2(-5.667, 5.667)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_yaehf"]
+_data = {
+&"RESET": SubResource("Animation_w48qg"),
+&"idle": SubResource("Animation_vivmo"),
+&"idle_2": SubResource("Animation_2cqfq")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_efxa6"]
+font_size = 65
+outline_size = 20
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_xuqvo"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_0odxb"]
+font_size = 40
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_lswn8"]
+font_size = 100
+font_color = Color(1, 0.20392157, 0.16078432, 1)
+outline_size = 5
+
+[sub_resource type="Animation" id="Animation_a6jrf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GameOver:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GameOver/Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GameOver/GameOverButton:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GameOver/Label:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_lswn8"]
+resource_name = "game_over"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GameOver:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GameOver/Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GameOver/GameOverButton:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GameOver/Label:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xuqvo"]
+_data = {
+&"RESET": SubResource("Animation_a6jrf"),
+&"game_over": SubResource("Animation_lswn8")
+}
+
+[node name="Main" type="Node2D" unique_id=697748079]
+script = ExtResource("1_lswn8")
+
+[node name="StartScreen" type="Node2D" parent="." unique_id=1086409271]
+
+[node name="TileMapLayerSand" type="TileMapLayer" parent="StartScreen" unique_id=1445593006]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAAAAAAAAAAGAB4AAAABAAAAAAAGAB4AAAACAAAAAAAGAB4AAAADAAAAAAAGAB4AAAAEAAAAAAAGAB4AAAAFAAAAAAAGAB4AAAAAAAEAAAAGAB4AAAAAAAIAAAAGAB4AAAAAAAMAAAAGAB4AAAAAAAQAAAAGAB4AAAAAAAUAAAAFAAEAAAABAAEAAAAGAB4AAAABAAIAAAAGAB4AAAABAAMAAAAGAB4AAAABAAQAAAAGAB4AAAABAAUAAAAGAB4AAAACAAEAAAAGAB4AAAACAAIAAAAFAAEAAAACAAMAAAAGAB4AAAACAAQAAAAGAB4AAAACAAUAAAAGAB4AAAADAAEAAAAGAB4AAAADAAIAAAAGAB4AAAADAAMAAAAGAB4AAAADAAQAAAAGAB4AAAADAAUAAAAGAB4AAAAEAAEAAAAGAB4AAAAEAAIAAAAGAB4AAAAEAAMAAAAGAB4AAAAEAAQAAAAGAB4AAAAEAAUAAAAGAB4AAAAFAAEAAAAGAB4AAAAFAAIAAAAGAB4AAAAFAAMAAAAGAB4AAAAFAAQAAAAGAB4AAAAFAAUAAAAFAAEAAAAGAAAAAAAGAB4AAAAGAAEAAAAGAB4AAAAGAAIAAAAGAB4AAAAGAAMAAAAGAB4AAAAGAAQAAAAGAB4AAAAGAAUAAAAGAB4AAAAHAAAAAAAGAB4AAAAHAAEAAAAGAB4AAAAHAAIAAAAFAAEAAAAHAAMAAAAGAB4AAAAHAAQAAAAFAAEAAAAHAAUAAAAGAB4AAAAIAAAAAAAGAB4AAAAIAAEAAAAGAB4AAAAIAAIAAAAGAB4AAAAIAAMAAAAGAB4AAAAIAAQAAAAFAAEAAAAIAAUAAAAGAB4AAAAJAAAAAAAGAB4AAAAJAAEAAAAGAB4AAAAJAAIAAAAGAB4AAAAJAAMAAAAGAB4AAAAJAAQAAAAGAB4AAAAJAAUAAAAGAB4AAAAKAAAAAAAGAB4AAAAKAAEAAAAGAB4AAAAKAAIAAAAGAB4AAAAKAAMAAAAGAB4AAAAKAAQAAAAGAB4AAAAKAAUAAAAGAB4AAAALAAAAAAAGAB4AAAALAAEAAAAGAB4AAAALAAIAAAAGAB4AAAALAAMAAAAGAB4AAAALAAQAAAAGAB4AAAALAAUAAAAGAB4AAAAMAAAAAAAGAB4AAAAMAAEAAAAGAB4AAAAMAAIAAAAGAB4AAAAMAAMAAAAGAB4AAAAMAAQAAAAGAB4AAAAMAAUAAAAGAB4AAAD/////AAAGAB4AAAD//wAAAAAGAB4AAAD//wEAAAAGAB4AAAD//wIAAAAGAB4AAAD//wMAAAAGAB4AAAD//wQAAAAGAB4AAAD//wUAAAAGAB4AAAD//wYAAAAGAB4AAAD//wcAAAAGAB4AAAD//wgAAAAGAB4AAAD//wkAAAALABIAAAD//woAAAALABMAAAD//wsAAAALABQAAAD//wwAAAALABUAAAD//w0AAAALABIAAAAAAP//AAAGAB4AAAAAAAYAAAAGAB4AAAAAAAcAAAAGAB4AAAAAAAgAAAAGAB4AAAAAAAkAAAAMABIAAAAAAAoAAAAMABMAAAAAAAsAAAAMABQAAAAAAAwAAAAMABUAAAAAAA0AAAAMABIAAAABAP//AAAGAB4AAAABAAYAAAAGAB4AAAABAAcAAAAIAAEAAAABAAgAAAAGAB4AAAABAAkAAAANABIAAAABAAoAAAANABMAAAABAAsAAAANABQAAAABAAwAAAANABUAAAABAA0AAAANABIAAAACAP//AAAGAB4AAAACAAYAAAAGAB4AAAACAAcAAAAGAB4AAAACAAgAAAAGAB4AAAACAAkAAAAOABIAAAACAAoAAAAOABMAAAACAAsAAAAOABQAAAACAAwAAAAOABUAAAACAA0AAAAOABIAAAADAP//AAAGAB4AAAADAAYAAAAGAB4AAAADAAcAAAAGAB4AAAADAAgAAAAGAB4AAAADAAkAAAALABIAAAADAAoAAAALABMAAAADAAsAAAALABQAAAADAAwAAAALABUAAAADAA0AAAALABIAAAAEAP//AAAGAB4AAAAEAAYAAAAGAB4AAAAEAAcAAAAGAB4AAAAEAAgAAAAGAB4AAAAEAAkAAAAMABIAAAAEAAoAAAAMABMAAAAEAAsAAAAMABQAAAAEAAwAAAAMABUAAAAEAA0AAAAMABIAAAAFAP//AAAGAB4AAAAFAAYAAAAGAB4AAAAFAAcAAAAGAB4AAAAFAAgAAAAHAAEAAAAFAAkAAAANABIAAAAFAAoAAAANABMAAAAFAAsAAAANABQAAAAFAAwAAAANABUAAAAFAA0AAAANABIAAAAGAP//AAAGAB4AAAAGAAYAAAAGAB4AAAAGAAcAAAAGAB4AAAAGAAgAAAAGAB4AAAAGAAkAAAAOABIAAAAGAAoAAAAOABMAAAAGAAsAAAAOABQAAAAGAAwAAAAOABUAAAAGAA0AAAAOABIAAAAHAP//AAAGAB4AAAAHAAYAAAAGAB4AAAAHAAcAAAAGAB4AAAAHAAgAAAAGAB4AAAAHAAkAAAALABIAAAAHAAoAAAALABMAAAAHAAsAAAALABQAAAAHAAwAAAALABUAAAAHAA0AAAALABIAAAAIAP//AAAGAB4AAAAIAAYAAAAGAB4AAAAIAAcAAAAGAB4AAAAIAAgAAAAGAB4AAAAIAAkAAAAMABIAAAAIAAoAAAAMABMAAAAIAAsAAAAMABQAAAAIAAwAAAAMABUAAAAIAA0AAAAMABIAAAAJAP//AAAFAAEAAAAJAAYAAAAGAB4AAAAJAAcAAAAHAAEAAAAJAAgAAAAGAB4AAAAJAAkAAAANABIAAAAJAAoAAAANABMAAAAJAAsAAAANABQAAAAJAAwAAAANABUAAAAJAA0AAAANABIAAAAKAP//AAAGAB4AAAAKAAYAAAAGAB4AAAAKAAcAAAAGAB4AAAAKAAgAAAAGAB4AAAAKAAkAAAAOABIAAAAKAAoAAAAOABMAAAAKAAsAAAAOABQAAAAKAAwAAAAOABUAAAAKAA0AAAAOABIAAAALAP//AAAFAAEAAAALAAYAAAAGAB4AAAALAAcAAAAGAB4AAAALAAgAAAAGAB4AAAALAAkAAAALABIAAAALAAoAAAALABMAAAALAAsAAAALABQAAAALAAwAAAALABUAAAALAA0AAAALABIAAAAMAP//AAAGAB4AAAAMAAYAAAAGAB4AAAAMAAcAAAAGAB4AAAAMAAgAAAAGAB4AAAAMAAkAAAAMABIAAAAMAAoAAAAMABMAAAAMAAsAAAAMABQAAAAMAAwAAAAMABUAAAAMAA0AAAAMABIAAAANAP//AAAGAB4AAAANAAAAAAAGAB4AAAANAAEAAAAGAB4AAAANAAIAAAAGAB4AAAANAAMAAAAGAB4AAAANAAQAAAAGAB4AAAANAAUAAAAGAB4AAAANAAYAAAAGAB4AAAANAAcAAAAGAB4AAAANAAgAAAAGAB4AAAANAAkAAAANABIAAAANAAoAAAANABMAAAANAAsAAAANABQAAAANAAwAAAANABUAAAANAA0AAAANABIAAAAOAP//AAAGAB4AAAAOAAAAAAAGAB4AAAAOAAEAAAAGAB4AAAAOAAIAAAAGAB4AAAAOAAMAAAAFAAEAAAAOAAQAAAAGAB4AAAAOAAUAAAAGAB4AAAAOAAYAAAAGAB4AAAAOAAcAAAAGAB4AAAAOAAgAAAAGAB4AAAAOAAkAAAAOABIAAAAOAAoAAAAOABMAAAAOAAsAAAAOABQAAAAOAAwAAAAOABUAAAAOAA0AAAAOABIAAAAPAP//AAAGAB4AAAAPAAAAAAAGAB4AAAAPAAEAAAAGAB4AAAAPAAIAAAAGAB4AAAAPAAMAAAAGAB4AAAAPAAQAAAAGAB4AAAAPAAUAAAAGAB4AAAAPAAYAAAAGAB4AAAAPAAcAAAAGAB4AAAAPAAgAAAAGAB4AAAAPAAkAAAALABIAAAAPAAoAAAALABMAAAAPAAsAAAALABQAAAAPAAwAAAALABUAAAAPAA0AAAALABIAAAAQAP//AAAGAB4AAAAQAAAAAAAGAB4AAAAQAAEAAAAGAB4AAAAQAAIAAAAGAB4AAAAQAAMAAAAGAB4AAAAQAAQAAAAGAB4AAAAQAAUAAAAGAB4AAAAQAAYAAAAGAB4AAAAQAAcAAAAGAB4AAAAQAAgAAAAGAB4AAAAQAAkAAAAMABIAAAAQAAoAAAAMABMAAAAQAAsAAAAMABQAAAAQAAwAAAAMABUAAAAQAA0AAAAMABIAAAARAP//AAAGAB4AAAARAAAAAAAGAB4AAAARAAEAAAAGAB4AAAARAAIAAAAGAB4AAAARAAMAAAAGAB4AAAARAAQAAAAGAB4AAAARAAUAAAAGAB4AAAARAAYAAAAGAB4AAAARAAcAAAAGAB4AAAARAAgAAAAGAB4AAAARAAkAAAANABIAAAARAAoAAAANABMAAAARAAsAAAANABQAAAARAAwAAAANABUAAAARAA0AAAANABIAAAASAP//AAAGAB4AAAASAAAAAAAFAAEAAAASAAEAAAAGAB4AAAASAAIAAAAGAB4AAAASAAMAAAAGAB4AAAASAAQAAAAGAB4AAAASAAUAAAAGAB4AAAASAAYAAAAGAB4AAAASAAcAAAAGAB4AAAASAAgAAAAGAB4AAAASAAkAAAAOABIAAAASAAoAAAAOABMAAAASAAsAAAAOABQAAAASAAwAAAAOABUAAAASAA0AAAAOABIAAAATAP//AAAGAB4AAAATAAAAAAAGAB4AAAATAAEAAAAGAB4AAAATAAIAAAAGAB4AAAATAAMAAAAGAB4AAAATAAQAAAAFAAEAAAATAAUAAAAGAB4AAAATAAYAAAAHAAEAAAATAAcAAAAGAB4AAAATAAgAAAAGAB4AAAATAAkAAAALABIAAAATAAoAAAALABMAAAATAAsAAAALABQAAAATAAwAAAALABUAAAATAA0AAAALABIAAAAUAP//AAAGAB4AAAAUAAAAAAAGAB4AAAAUAAEAAAAGAB4AAAAUAAIAAAAGAB4AAAAUAAMAAAAGAB4AAAAUAAQAAAAGAB4AAAAUAAUAAAAGAB4AAAAUAAYAAAAGAB4AAAAUAAcAAAAGAB4AAAAUAAgAAAAGAB4AAAAUAAkAAAAMABIAAAAUAAoAAAAMABMAAAAUAAsAAAAMABQAAAAUAAwAAAAMABUAAAAUAA0AAAAMABIAAAAVAP//AAAGAB4AAAAVAAAAAAAGAB4AAAAVAAEAAAAGAB4AAAAVAAIAAAAGAB4AAAAVAAMAAAAGAB4AAAAVAAQAAAAGAB4AAAAVAAUAAAAFAAEAAAAVAAYAAAAGAB4AAAAVAAcAAAAGAB4AAAAVAAgAAAAGAB4AAAAVAAkAAAANABIAAAAVAAoAAAANABMAAAAVAAsAAAANABQAAAAVAAwAAAANABUAAAAVAA0AAAANABIAAAAWAP//AAAGAB4AAAAWAAAAAAAGAB4AAAAWAAEAAAAGAB4AAAAWAAIAAAAGAB4AAAAWAAMAAAAGAB4AAAAWAAQAAAAGAB4AAAAWAAUAAAAGAB4AAAAWAAYAAAAGAB4AAAAWAAcAAAAGAB4AAAAWAAgAAAAHAAEAAAAWAAkAAAAOABIAAAAWAAoAAAAOABMAAAAWAAsAAAAOABQAAAAWAAwAAAAOABUAAAAWAA0AAAAOABIAAAAXAP//AAAGAB4AAAAXAAAAAAAGAB4AAAAXAAEAAAAGAB4AAAAXAAMAAAAGAB4AAAAXAAQAAAAFAAEAAAAXAAUAAAAGAB4AAAAXAAYAAAAGAB4AAAAXAAcAAAAGAB4AAAAXAAgAAAAGAB4AAAAXAAkAAAALABIAAAAXAAoAAAALABMAAAAXAAsAAAALABQAAAAXAAwAAAALABUAAAAXAA0AAAALABIAAAAYAP//AAAGAB4AAAAYAAAAAAAGAB4AAAAYAAEAAAAGAB4AAAAYAAIAAAAGAB4AAAAYAAMAAAAGAB4AAAAYAAUAAAAGAB4AAAAYAAYAAAAGAB4AAAAYAAcAAAAGAB4AAAAYAAgAAAAGAB4AAAAYAAkAAAAMABIAAAAYAAoAAAAMABMAAAAYAAsAAAAMABQAAAAYAAwAAAAMABUAAAAYAA0AAAAMABIAAAAXAAIAAAAFAAEAAAAYAAQAAAAFAAEAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerSandTop" type="TileMapLayer" parent="StartScreen" unique_id=1473577227]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD//wkAAAAGACAAAAAAAAkAAAAGACAAAAABAAkAAAAGACAAAAACAAkAAAAGACAAAAADAAkAAAAGACAAAAAEAAkAAAAGACAAAAAFAAkAAAAGACAAAAAGAAkAAAAGACAAAAAHAAkAAAAGACAAAAAIAAkAAAAGACAAAAAJAAkAAAAGACAAAAAKAAkAAAAGACAAAAALAAkAAAAGACAAAAAMAAkAAAAGACAAAAANAAkAAAAGACAAAAAOAAkAAAAGACAAAAAPAAkAAAAGACAAAAAQAAkAAAAGACAAAAARAAkAAAAGACAAAAASAAkAAAAGACAAAAATAAkAAAAGACAAAAAUAAkAAAAGACAAAAAVAAkAAAAGACAAAAAWAAkAAAAGACAAAAAXAAkAAAAGACAAAAAYAAkAAAAGACAAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerCliff" type="TileMapLayer" parent="StartScreen" unique_id=215317227]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD//wkAAAAGACAAAAAAAAkAAAAGACAAAAABAAkAAAAGACAAAAACAAkAAAAGACAAAAADAAkAAAAGACAAAAAEAAkAAAAGACAAAAAFAAkAAAAGACAAAAAGAAkAAAAGACAAAAAHAAkAAAAGACAAAAAIAAkAAAAGACAAAAAJAAkAAAAGACAAAAAKAAkAAAAGACAAAAALAAkAAAAGACAAAAAMAAkAAAAGACAAAAANAAkAAAAGACAAAAAOAAkAAAAGACAAAAAPAAkAAAAGACAAAAAQAAkAAAAGACAAAAARAAkAAAAGACAAAAASAAkAAAAGACAAAAATAAkAAAAGACAAAAAUAAkAAAAGACAAAAAVAAkAAAAGACAAAAAWAAkAAAAGACAAAAAXAAkAAAAGACAAAAAYAAkAAAAGACAAAAD//wYAAAACACAAAAAAAAYAAAACACAAAGABAAYAAAACACAAAAACAAYAAAACACAAAGADAAYAAAACACAAAAAEAAYAAAACACAAAGAFAAYAAAACACAAAAAGAAYAAAACACAAAGAHAAYAAAACACAAAAAIAAYAAAACACAAAGAJAAYAAAACACAAAAAKAAYAAAACACAAAGALAAYAAAACACAAAAAMAAYAAAACACAAAGANAAYAAAACACAAAAAOAAYAAAACACAAAGAPAAYAAAACACAAAAAQAAYAAAACACAAAGARAAYAAAACACAAAAASAAYAAAACACAAAGATAAYAAAACACAAAAAUAAYAAAACACAAAGAVAAYAAAACACAAAAAWAAYAAAACACAAAGAXAAYAAAACACAAAAAYAAYAAAACACAAAGD//wUAAAACAB8AAGAAAAUAAAACACAAAAABAAUAAAACAB8AAGACAAUAAAACACAAAAADAAUAAAACAB8AAGAEAAUAAAACACAAAAAFAAUAAAACAB8AAGAGAAUAAAACACAAAAAHAAUAAAACAB8AAGAIAAUAAAACACAAAAAJAAUAAAACAB8AAGAKAAUAAAACACAAAAALAAUAAAACAB8AAGAMAAUAAAACACAAAAANAAUAAAACAB8AAGAOAAUAAAACACAAAAAPAAUAAAACAB8AAGAQAAUAAAACACAAAAARAAUAAAACAB8AAGASAAUAAAACACAAAAATAAUAAAACAB8AAGAUAAUAAAACACAAAAAVAAUAAAACAB8AAGAWAAUAAAACACAAAAAXAAUAAAACAB8AAGAYAAUAAAACACAAAAD//wQAAAACAB4AAAAAAAQAAAACAB4AAAABAAQAAAACAAIAAAACAAQAAAACAB4AAAADAAQAAAACAB4AAAAEAAQAAAACAB4AAAAFAAQAAAACAB4AAAAGAAQAAAABAAIAAAAHAAQAAAACAB4AAAAIAAQAAAACAB4AAAAJAAQAAAACAB4AAAAKAAQAAAACAB4AAAALAAQAAAACAB4AAAAMAAQAAAACAB4AAAANAAQAAAACAB4AAAAOAAQAAAACAB4AAAAPAAQAAAACAB4AAAAQAAQAAAACAB4AAAARAAQAAAACAB4AAAASAAQAAAABAAIAAAATAAQAAAACAB4AAAAUAAQAAAACAB4AAAAVAAQAAAABAAIAAAAWAAQAAAACAB4AAAAXAAQAAAACAAIAAAAYAAQAAAACAB4AAAD/////AAABAAEAAAD//wAAAAABAAEAAAD//wEAAAABAAEAAAD//wIAAAABAAEAAAD//wMAAAABAAEAAAAAAP//AAABAAEAAAAAAAAAAAABAAEAAAAAAAEAAAABAAEAAAAAAAIAAAABAAIAAAAAAAMAAAABAAEAAAABAP//AAABAAEAAAABAAAAAAABAAEAAAABAAEAAAABAAEAAAABAAIAAAABAAEAAAABAAMAAAABAAEAAAACAP//AAABAAEAAAACAAAAAAABAAEAAAACAAEAAAABAAEAAAACAAIAAAABAAEAAAACAAMAAAABAAEAAAADAP//AAABAAEAAAADAAAAAAABAAEAAAADAAEAAAABAAIAAAADAAIAAAABAAEAAAADAAMAAAABAAEAAAAEAP//AAABAAEAAAAEAAAAAAABAAEAAAAEAAEAAAABAAEAAAAEAAIAAAABAAEAAAAEAAMAAAABAAEAAAAFAP//AAABAAEAAAAFAAAAAAABAAEAAAAFAAEAAAABAAEAAAAFAAIAAAABAAEAAAAFAAMAAAABAAEAAAAGAP//AAABAAEAAAAGAAAAAAABAAEAAAAGAAEAAAABAAEAAAAGAAIAAAABAAIAAAAGAAMAAAABAAEAAAAHAP//AAABAAEAAAAHAAAAAAABAAEAAAAHAAEAAAABAAEAAAAHAAIAAAABAAEAAAAHAAMAAAABAAEAAAAIAP//AAABAAEAAAAIAAAAAAABAAEAAAAIAAEAAAABAAEAAAAIAAIAAAABAAEAAAAIAAMAAAABAAEAAAAJAP//AAABAAEAAAAJAAAAAAABAAEAAAAJAAEAAAACAAIAAAAJAAIAAAABAAEAAAAJAAMAAAABAAEAAAAKAP//AAABAAIAAAAKAAAAAAABAAEAAAAKAAEAAAABAAEAAAAKAAIAAAABAAEAAAAKAAMAAAABAAEAAAALAP//AAABAAEAAAALAAAAAAABAAEAAAALAAEAAAABAAEAAAALAAIAAAABAAEAAAALAAMAAAABAAEAAAAMAP//AAABAAEAAAAMAAAAAAABAAEAAAAMAAEAAAABAAEAAAAMAAIAAAABAAEAAAAMAAMAAAABAAEAAAANAP//AAABAAEAAAANAAAAAAABAAEAAAANAAEAAAABAAEAAAANAAIAAAABAAEAAAANAAMAAAABAAEAAAAOAP//AAABAAEAAAAOAAAAAAABAAEAAAAOAAEAAAABAAEAAAAOAAIAAAABAAIAAAAOAAMAAAACAAIAAAAPAP//AAABAAEAAAAPAAAAAAABAAEAAAAPAAEAAAABAAEAAAAPAAIAAAABAAEAAAAPAAMAAAABAAEAAAAQAP//AAABAAEAAAAQAAAAAAABAAEAAAAQAAEAAAABAAEAAAAQAAIAAAABAAEAAAAQAAMAAAABAAEAAAARAP//AAABAAEAAAARAAAAAAABAAEAAAARAAEAAAABAAEAAAARAAIAAAABAAEAAAARAAMAAAABAAEAAAASAP//AAABAAEAAAASAAAAAAABAAEAAAASAAEAAAABAAEAAAASAAIAAAABAAEAAAASAAMAAAABAAIAAAATAP//AAABAAEAAAATAAAAAAABAAEAAAATAAEAAAABAAEAAAATAAIAAAABAAEAAAATAAMAAAABAAEAAAAUAP//AAABAAEAAAAUAAAAAAABAAEAAAAUAAEAAAABAAIAAAAUAAIAAAABAAEAAAAUAAMAAAABAAEAAAAVAP//AAABAAEAAAAVAAAAAAABAAEAAAAVAAEAAAABAAEAAAAVAAIAAAABAAEAAAAVAAMAAAABAAEAAAAWAP//AAABAAEAAAAWAAAAAAABAAEAAAAWAAEAAAABAAEAAAAWAAIAAAABAAEAAAAWAAMAAAABAAEAAAAXAP//AAABAAEAAAAXAAAAAAABAAEAAAAXAAEAAAABAAEAAAAXAAIAAAABAAEAAAAXAAMAAAACAAIAAAAYAP//AAABAAEAAAAYAAAAAAABAAEAAAAYAAEAAAABAAEAAAAYAAIAAAABAAEAAAAYAAMAAAABAAEAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerCliffTop" type="TileMapLayer" parent="StartScreen" unique_id=567684706]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD//wkAAAAGACAAAAAAAAkAAAAGACAAAAABAAkAAAAGACAAAAACAAkAAAAGACAAAAADAAkAAAAGACAAAAAEAAkAAAAGACAAAAAFAAkAAAAGACAAAAAGAAkAAAAGACAAAAAHAAkAAAAGACAAAAAIAAkAAAAGACAAAAAJAAkAAAAGACAAAAAKAAkAAAAGACAAAAALAAkAAAAGACAAAAAMAAkAAAAGACAAAAANAAkAAAAGACAAAAAOAAkAAAAGACAAAAAPAAkAAAAGACAAAAAQAAkAAAAGACAAAAARAAkAAAAGACAAAAASAAkAAAAGACAAAAATAAkAAAAGACAAAAAUAAkAAAAGACAAAAAVAAkAAAAGACAAAAAWAAkAAAAGACAAAAAXAAkAAAAGACAAAAAYAAkAAAAGACAAAAD//wYAAAACACAAAAAAAAYAAAACACAAAGABAAYAAAACACAAAAACAAYAAAACACAAAGADAAYAAAACACAAAAAEAAYAAAACACAAAGAFAAYAAAACACAAAAAGAAYAAAACACAAAGAHAAYAAAACACAAAAAIAAYAAAACACAAAGAJAAYAAAADAB8AAAAKAAYAAAAMAAUAAAALAAYAAAAFAAEAAAAMAAYAAAAFAAEAAAANAAYAAAAKAAUAAAAOAAYAAAABAB8AAAAPAAYAAAACACAAAAAQAAYAAAACACAAAGARAAYAAAACACAAAAASAAYAAAACACAAAGATAAYAAAACACAAAAAUAAYAAAACACAAAGAVAAYAAAACACAAAAAWAAYAAAACACAAAGAXAAYAAAACACAAAAAYAAYAAAACACAAAGD//wUAAAACAB8AAGAAAAUAAAACACAAAAABAAUAAAACAB8AAGACAAUAAAACACAAAAADAAUAAAACAB8AAGAEAAUAAAACACAAAAAFAAUAAAACAB8AAGAGAAUAAAACACAAAAAHAAUAAAACAB8AAGAIAAUAAAACACAAAAAJAAUAAAADAB8AAAAKAAUAAAADAB8AAAALAAUAAAALAAIAAAAMAAUAAAALAAIAAAANAAUAAAABAB8AAAAOAAUAAAABAB8AAAAPAAUAAAACAB8AAGAQAAUAAAACACAAAAARAAUAAAACAB8AAGASAAUAAAACACAAAAATAAUAAAACAB8AAGAUAAUAAAACACAAAAAVAAUAAAACAB8AAGAWAAUAAAACACAAAAAXAAUAAAACAB8AAGAYAAUAAAACACAAAAD//wQAAAACAB4AAAAAAAQAAAACAB4AAAABAAQAAAACAAIAAAACAAQAAAACAB4AAAADAAQAAAACAB4AAAAEAAQAAAACAB4AAAAFAAQAAAACAB4AAAAGAAQAAAABAAIAAAAHAAQAAAACAB4AAAAIAAQAAAACAB4AAAAJAAQAAAACAB4AAAAKAAQAAAADAB4AAAALAAQAAAACAB8AAAAMAAQAAAACAB8AAAANAAQAAAABAB4AAAAOAAQAAAACAB4AAAAPAAQAAAACAB4AAAAQAAQAAAACAB4AAAARAAQAAAACAB4AAAASAAQAAAABAAIAAAATAAQAAAACAB4AAAAUAAQAAAACAB4AAAAVAAQAAAABAAIAAAAWAAQAAAACAB4AAAAXAAQAAAACAAIAAAAYAAQAAAACAB4AAAD/////AAABAAEAAAD//wAAAAABAAEAAAD//wEAAAABAAEAAAD//wIAAAABAAEAAAD//wMAAAABAAEAAAAAAP//AAABAAEAAAAAAAAAAAABAAEAAAAAAAEAAAABAAEAAAAAAAIAAAABAAIAAAAAAAMAAAABAAEAAAABAP//AAABAAEAAAABAAAAAAABAAEAAAABAAEAAAABAAEAAAABAAIAAAABAAEAAAABAAMAAAABAAEAAAACAP//AAABAAEAAAACAAAAAAABAAEAAAACAAEAAAABAAEAAAACAAIAAAABAAEAAAACAAMAAAABAAEAAAADAP//AAABAAEAAAADAAAAAAABAAEAAAADAAEAAAABAAIAAAADAAIAAAABAAEAAAADAAMAAAABAAEAAAAEAP//AAABAAEAAAAEAAAAAAABAAEAAAAEAAEAAAABAAEAAAAEAAIAAAABAAEAAAAEAAMAAAABAAEAAAAFAP//AAABAAEAAAAFAAAAAAABAAEAAAAFAAEAAAABAAEAAAAFAAIAAAABAAEAAAAFAAMAAAABAAEAAAAGAP//AAABAAEAAAAGAAAAAAABAAEAAAAGAAEAAAABAAEAAAAGAAIAAAABAAIAAAAGAAMAAAABAAEAAAAHAP//AAABAAEAAAAHAAAAAAABAAEAAAAHAAEAAAABAAEAAAAHAAIAAAABAAEAAAAHAAMAAAABAAEAAAAIAP//AAABAAEAAAAIAAAAAAABAAEAAAAIAAEAAAABAAEAAAAIAAIAAAABAAEAAAAIAAMAAAABAAEAAAAJAP//AAABAAEAAAAJAAAAAAABAAEAAAAJAAEAAAACAAIAAAAJAAIAAAABAAEAAAAJAAMAAAABAAEAAAAKAP//AAABAAIAAAAKAAAAAAABAAEAAAAKAAEAAAABAAEAAAAKAAIAAAABAAEAAAAKAAMAAAABAAEAAAALAP//AAABAAEAAAALAAAAAAABAAEAAAALAAEAAAABAAEAAAALAAIAAAABAAEAAAALAAMAAAACAB4AAAAMAP//AAABAAEAAAAMAAAAAAABAAEAAAAMAAEAAAABAAEAAAAMAAIAAAABAAEAAAAMAAMAAAACAB4AAAANAP//AAABAAEAAAANAAAAAAABAAEAAAANAAEAAAABAAEAAAANAAIAAAABAAEAAAANAAMAAAABAAEAAAAOAP//AAABAAEAAAAOAAAAAAABAAEAAAAOAAEAAAABAAEAAAAOAAIAAAABAAIAAAAOAAMAAAACAAIAAAAPAP//AAABAAEAAAAPAAAAAAABAAEAAAAPAAEAAAABAAEAAAAPAAIAAAABAAEAAAAPAAMAAAABAAEAAAAQAP//AAABAAEAAAAQAAAAAAABAAEAAAAQAAEAAAABAAEAAAAQAAIAAAABAAEAAAAQAAMAAAABAAEAAAARAP//AAABAAEAAAARAAAAAAABAAEAAAARAAEAAAABAAEAAAARAAIAAAABAAEAAAARAAMAAAABAAEAAAASAP//AAABAAEAAAASAAAAAAABAAEAAAASAAEAAAABAAEAAAASAAIAAAABAAEAAAASAAMAAAABAAIAAAATAP//AAABAAEAAAATAAAAAAABAAEAAAATAAEAAAABAAEAAAATAAIAAAABAAEAAAATAAMAAAABAAEAAAAUAP//AAABAAEAAAAUAAAAAAABAAEAAAAUAAEAAAABAAIAAAAUAAIAAAABAAEAAAAUAAMAAAABAAEAAAAVAP//AAABAAEAAAAVAAAAAAABAAEAAAAVAAEAAAABAAEAAAAVAAIAAAABAAEAAAAVAAMAAAABAAEAAAAWAP//AAABAAEAAAAWAAAAAAABAAEAAAAWAAEAAAABAAEAAAAWAAIAAAABAAEAAAAWAAMAAAABAAEAAAAXAP//AAABAAEAAAAXAAAAAAABAAEAAAAXAAEAAAABAAEAAAAXAAIAAAABAAEAAAAXAAMAAAACAAIAAAAYAP//AAABAAEAAAAYAAAAAAABAAEAAAAYAAEAAAABAAEAAAAYAAIAAAABAAEAAAAYAAMAAAABAAEAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerShadow" type="TileMapLayer" parent="StartScreen" unique_id=2147111576]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAADAAQAAAAgAAQAAAATAAQAAAAfAAQAAAAGAAQAAAAhAAMAAAAQAAQAAAAiAAMAAAAJAAcAAAANAAEAAGD//wcAAAAMAAEAAAD//wgAAAAMAAEAAAAAAAcAAAAMAAEAAAAAAAgAAAAMAAEAAAABAAcAAAAMAAEAAAABAAgAAAAMAAEAAAACAAcAAAAMAAEAAAACAAgAAAAMAAEAAAADAAcAAAAMAAEAAAADAAgAAAAMAAEAAAAEAAcAAAAMAAEAAAAEAAgAAAAMAAEAAAAFAAcAAAAMAAEAAAAFAAgAAAAMAAEAAAAGAAcAAAAMAAEAAAAGAAgAAAAMAAEAAAAHAAcAAAAMAAEAAAAHAAgAAAAMAAEAAAAIAAcAAAAMAAEAAAAIAAgAAAANAAEAAGAPAAcAAAAMAAEAAAAQAAcAAAAMAAEAAAARAAcAAAAMAAEAAAARAAgAAAAMAAEAAAASAAcAAAAMAAEAAAASAAgAAAAMAAEAAAATAAcAAAAMAAEAAAATAAgAAAAMAAEAAAAUAAcAAAAMAAEAAAAUAAgAAAAMAAEAAAAVAAcAAAAMAAEAAAAVAAgAAAAMAAEAAAAWAAcAAAAMAAEAAAAWAAgAAAAMAAEAAAAXAAcAAAAMAAEAAAAXAAgAAAAMAAEAAAAYAAcAAAAMAAEAAAAYAAgAAAAMAAEAAAAQAAgAAAAMAAEAAAAPAAgAAAANAAEAAAAOAAcAAAANAAEAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerNature" type="TileMapLayer" parent="StartScreen" unique_id=669918552]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAANAAUAAAAMAAIAAAAKAAUAAAAKAAIAAAAMAAYAAAAOAAYAAAALAAYAAAAOAAYAAAAKAAYAAAANAAYAAAANAAYAAAAPAAYAAAACAAgAAAAgAAQAAAATAAcAAAAgAAQAAAAWAAgAAAAfAAQAAAASAAMAAAA6AAkAAAADAAMAAAA3AAkAAAAAAAMAAAA4AAkAAAAEAAEAAAA4AAcAAAAYAAIAAAA4AAgAAAAOAAEAAAA6AAcAAAAJAAMAAAA5AAkAAAAGAAIAAAA6AAgAAAABAAEAAAA5AAcAAAALAAEAAAA3AAcAAAAQAAMAAAA4AAkAAAAVAAEAAAA5AAcAAAAOAAYAAAAzABMAAAAOAAcAAAAzABQAAAAPAAYAAAA0ABMAAAAPAAcAAAA0ABQAAAD/////AAA3AAUAAAD//wAAAAA3AAYAAAD//wEAAAA3AAcAAAD//wIAAAA3AAgAAAD//wMAAAA3AAkAAAAAAP//AAA4AAUAAAAAAAAAAAA4AAYAAAAAAAEAAAA4AAcAAAAAAAIAAAA4AAgAAAABAP//AAA5AAUAAAABAAAAAAA5AAYAAAABAAIAAAA5AAgAAAABAAMAAAA5AAkAAAACAP//AAA6AAUAAAACAAAAAAA6AAYAAAACAAEAAAA6AAcAAAACAAIAAAA6AAgAAAACAAMAAAA6AAkAAAADAP//AAA3AAUAAAADAAAAAAA3AAYAAAADAAEAAAA3AAcAAAADAAIAAAA3AAgAAAAEAP//AAA4AAUAAAAEAAAAAAA4AAYAAAAEAAIAAAA4AAgAAAAEAAMAAAA4AAkAAAAFAP//AAA5AAUAAAAFAAAAAAA5AAYAAAAFAAEAAAA5AAcAAAAFAAIAAAA5AAgAAAAFAAMAAAA5AAkAAAAGAP//AAA6AAUAAAAGAAAAAAA6AAYAAAAGAAEAAAA6AAcAAAAGAAMAAAA6AAkAAAAHAP//AAA3AAUAAAAHAAAAAAA3AAYAAAAHAAEAAAA3AAcAAAAHAAIAAAA3AAgAAAAHAAMAAAA3AAkAAAAIAP//AAA4AAUAAAAIAAAAAAA4AAYAAAAIAAEAAAA4AAcAAAAIAAIAAAA4AAgAAAAIAAMAAAA4AAkAAAAJAP//AAA5AAUAAAAJAAAAAAA5AAYAAAAJAAEAAAA5AAcAAAAJAAIAAAA5AAgAAAAKAP//AAA6AAUAAAAKAAAAAAA6AAYAAAAKAAEAAAA6AAcAAAAKAAIAAAA6AAgAAAAKAAMAAAA6AAkAAAALAP//AAA3AAUAAAALAAAAAAA3AAYAAAALAAIAAAA3AAgAAAALAAMAAAA3AAkAAAAMAP//AAA4AAUAAAAMAAAAAAA4AAYAAAAMAAEAAAA4AAcAAAAMAAIAAAA4AAgAAAAMAAMAAAA4AAkAAAANAP//AAA5AAUAAAANAAAAAAA5AAYAAAANAAEAAAA5AAcAAAANAAIAAAA5AAgAAAANAAMAAAA5AAkAAAAOAP//AAA6AAUAAAAOAAAAAAA6AAYAAAAOAAIAAAA6AAgAAAAOAAMAAAA6AAkAAAAPAP//AAA3AAUAAAAPAAAAAAA3AAYAAAAPAAEAAAA3AAcAAAAPAAIAAAA3AAgAAAAPAAMAAAA3AAkAAAAQAP//AAA4AAUAAAAQAAAAAAA4AAYAAAAQAAEAAAA4AAcAAAAQAAIAAAA4AAgAAAARAP//AAA5AAUAAAARAAAAAAA5AAYAAAARAAEAAAA5AAcAAAARAAIAAAA5AAgAAAARAAMAAAA5AAkAAAASAP//AAA6AAUAAAASAAAAAAA6AAYAAAASAAEAAAA6AAcAAAASAAIAAAA6AAgAAAATAP//AAA3AAUAAAATAAAAAAA3AAYAAAATAAEAAAA3AAcAAAATAAIAAAA3AAgAAAATAAMAAAA3AAkAAAAUAP//AAA4AAUAAAAUAAAAAAA4AAYAAAAUAAEAAAA4AAcAAAAUAAIAAAA4AAgAAAAUAAMAAAA4AAkAAAAVAP//AAA5AAUAAAAVAAAAAAA5AAYAAAAVAAIAAAA5AAgAAAAVAAMAAAA5AAkAAAAWAP//AAA6AAUAAAAWAAAAAAA6AAYAAAAWAAEAAAA6AAcAAAAWAAIAAAA6AAgAAAAWAAMAAAA6AAkAAAAXAP//AAA3AAUAAAAXAAAAAAA3AAYAAAAXAAEAAAA3AAcAAAAXAAIAAAA3AAgAAAAXAAMAAAA3AAkAAAAYAP//AAA4AAUAAAAYAAAAAAA4AAYAAAAYAAEAAAA4AAcAAAAYAAMAAAA4AAkAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerNatureTop" type="TileMapLayer" parent="StartScreen" unique_id=1046424000]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAADAAQAAAAgAAQAAAATAAQAAAAfAAQAAAAGAAQAAAAhAAMAAAAQAAQAAAAiAAMAAAAJAAcAAAAmAB4AAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="UI" type="Node2D" parent="StartScreen" unique_id=480602778]
+
+[node name="Label" type="Label" parent="StartScreen/UI" unique_id=1194491099]
+offset_right = 1151.0
+offset_bottom = 192.0
+text = "Mining Dungeon"
+label_settings = SubResource("LabelSettings_272bh")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayButton" type="Node2D" parent="StartScreen/UI" unique_id=66525946]
+position = Vector2(36, -6)
+
+[node name="Sprite2D" type="Sprite2D" parent="StartScreen/UI/PlayButton" unique_id=593576346]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="StartScreen/UI/PlayButton" unique_id=1454371243]
+texture_filter = 1
+position = Vector2(484, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="StartScreen/UI/PlayButton" unique_id=568106078]
+texture_filter = 1
+position = Vector2(596, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="StartScreen/UI/PlayButton" unique_id=681132654]
+texture_filter = 1
+position = Vector2(666, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="StartScreen/UI/PlayButton" unique_id=108956892]
+offset_left = 415.0
+offset_top = 486.0
+offset_right = 664.0
+offset_bottom = 555.0
+text = "PLAY"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonPlayGame" type="Button" parent="StartScreen/UI/PlayButton" unique_id=1651387139]
+clip_contents = true
+offset_left = 407.0
+offset_top = 484.0
+offset_right = 673.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="Axes" type="Node2D" parent="StartScreen/UI" unique_id=473245070]
+position = Vector2(-17, 0)
+
+[node name="TileMapLayerAxe" type="TileMapLayer" parent="StartScreen/UI/Axes" unique_id=1986563107]
+texture_filter = 1
+position = Vector2(-1530.0001, -77.00006)
+rotation = -0.80285144
+scale = Vector2(12, 12)
+tile_map_data = PackedByteArray("AAAEAAgAAAApADAAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerAxe2" type="TileMapLayer" parent="StartScreen/UI/Axes" unique_id=193068578]
+texture_filter = 1
+position = Vector2(-842, -66.00006)
+rotation = -0.80285144
+scale = Vector2(12, 12)
+tile_map_data = PackedByteArray("AAAEAAgAAAApADAAAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="StartScreen/UI" unique_id=1501130967]
+libraries/ = SubResource("AnimationLibrary_7mycd")
+
+[node name="CharSelect" type="Node2D" parent="." unique_id=585625820]
+visible = false
+position = Vector2(-6, 55)
+script = ExtResource("5_dg77c")
+
+[node name="TileMapLayerFloor" type="TileMapLayer" parent="CharSelect" unique_id=174791117]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD/////AAANAB8AAAD//wAAAAANAB8AAAD//wEAAAANAB8AAAD//wIAAAANAB8AAAD//wMAAAANAB8AAAD//wQAAAANAB8AAAD//wUAAAANAB8AAAD//wYAAAANAB8AAAD//wcAAAANAB8AAAD//wgAAAANAB8AAAD//wkAAAANAB8AAAD//woAAAANAB8AAAD//wsAAAANAB8AAAD//wwAAAANAB8AAAD//w0AAAANAB8AAAAAAP//AAANAB8AAAAAAAAAAAANAB8AAAAAAAEAAAANAB8AAAAAAAIAAAANAB8AAAAAAAMAAAANAB8AAAAAAAQAAAANAB8AAAAAAAUAAAANAB8AAAAAAAYAAAANAB8AAAAAAAcAAAANAB8AAAAAAAgAAAANAB8AAAAAAAkAAAANAB8AAAAAAAoAAAANAB8AAAAAAAsAAAANAB8AAAAAAAwAAAANAB8AAAAAAA0AAAANAB8AAAABAP//AAANAB8AAAABAAAAAAANAB8AAAABAAEAAAANAB8AAAABAAIAAAANAB8AAAABAAMAAAANAB8AAAABAAQAAAANAB8AAAABAAUAAAANAB8AAAABAAYAAAANAB8AAAABAAcAAAANAB8AAAABAAgAAAANAB8AAAABAAkAAAANAB8AAAABAAoAAAANAB8AAAABAAsAAAANAB8AAAABAAwAAAANAB8AAAABAA0AAAANAB8AAAACAP//AAANAB8AAAACAAAAAAANAB8AAAACAAEAAAANAB8AAAACAAIAAAANAB8AAAACAAMAAAANAB8AAAACAAQAAAANAB8AAAACAAUAAAANAB8AAAACAAYAAAANAB8AAAACAAcAAAANAB8AAAACAAgAAAANAB8AAAACAAkAAAANAB8AAAACAAoAAAANAB8AAAACAAsAAAANAB8AAAACAAwAAAANAB8AAAACAA0AAAANAB8AAAADAP//AAANAB8AAAADAAAAAAANAB8AAAADAAEAAAANAB8AAAADAAMAAAAJAB4AAAADAAQAAAAJAB4AAAADAAUAAAAJAB4AAAADAAYAAAAJAB4AAAADAAcAAAAJAB4AAAADAAgAAAAJAB4AAAADAAkAAAAJAB8AAAADAAoAAAAJAB8AAAADAAsAAAANAB8AAAADAAwAAAANAB8AAAADAA0AAAANAB8AAAAEAP//AAANAB8AAAAEAAAAAAANAB8AAAAEAAEAAAANAB8AAAAEAAIAAAAKABwAAAAEAAMAAAAKAB0AAAAEAAQAAAALAB4AAAAEAAUAAAALAB4AAAAEAAYAAAALAB4AAAAEAAcAAAALAB4AAAAEAAgAAAALAB4AAAAEAAkAAAAKAB8AAAAEAAoAAAAJAB8AAAAEAAsAAAANAB8AAAAEAAwAAAANAB8AAAAEAA0AAAANAB8AAAAFAP//AAANAB8AAAAFAAAAAAANAB8AAAAFAAEAAAANAB8AAAAFAAIAAAALABwAAAAFAAMAAAALAB4AAAAFAAQAAAALAB4AAAAFAAUAAAALAB4AAAAFAAYAAAALAB4AAAAFAAcAAAALAB4AAAAFAAgAAAALAB4AAAAFAAkAAAALAB4AAAAFAAoAAAALACAAAAAFAAsAAAANAB8AAAAFAAwAAAANAB8AAAAFAA0AAAANAB8AAAAGAP//AAANAB8AAAAGAAAAAAANAB8AAAAGAAEAAAANAB8AAAAGAAIAAAALABwAAAAGAAMAAAALAB4AAAAGAAQAAAALAB4AAAAGAAUAAAALAB4AAAAGAAYAAAALAB4AAAAGAAcAAAALAB4AAAAGAAgAAAALAB4AAAAGAAkAAAALAB4AAAAGAAoAAAALACAAAAAGAAsAAAANAB8AAAAGAAwAAAANAB8AAAAGAA0AAAANAB8AAAAHAP//AAANAB8AAAAHAAAAAAANAB8AAAAHAAEAAAANAB8AAAAHAAIAAAALABwAAAAHAAMAAAALAB4AAAAHAAQAAAALAB4AAAAHAAUAAAALAB4AAAAHAAYAAAALAB4AAAAHAAcAAAALAB4AAAAHAAgAAAALAB4AAAAHAAkAAAALAB4AAAAHAAoAAAALACAAAAAHAAsAAAANAB8AAAAHAAwAAAANAB8AAAAHAA0AAAANAB8AAAAIAP//AAANAB8AAAAIAAAAAAANAB8AAAAIAAEAAAANAB8AAAAIAAIAAAALABwAAAAIAAMAAAALAB4AAAAIAAQAAAALAB4AAAAIAAUAAAALAB4AAAAIAAYAAAALAB4AAAAIAAcAAAALAB4AAAAIAAgAAAALAB4AAAAIAAkAAAALAB4AAAAIAAoAAAALACAAAAAIAAsAAAANAB8AAAAIAAwAAAANAB8AAAAIAA0AAAANAB8AAAAJAP//AAANAB8AAAAJAAAAAAANAB8AAAAJAAEAAAANAB8AAAAJAAIAAAALABwAAAAJAAMAAAALAB4AAAAJAAQAAAALAB4AAAAJAAUAAAALAB4AAAAJAAYAAAALAB4AAAAJAAcAAAALAB4AAAAJAAgAAAALAB4AAAAJAAkAAAALAB4AAAAJAAoAAAALACAAAAAJAAsAAAANAB8AAAAJAAwAAAANAB8AAAAJAA0AAAANAB8AAAAKAP//AAANAB8AAAAKAAAAAAANAB8AAAAKAAEAAAANAB8AAAAKAAIAAAALABwAAAAKAAMAAAALAB4AAAAKAAQAAAALAB4AAAAKAAUAAAALAB4AAAAKAAYAAAALAB4AAAAKAAcAAAALAB4AAAAKAAgAAAALAB4AAAAKAAkAAAALAB4AAAAKAAoAAAALACAAAAAKAAsAAAANAB8AAAAKAAwAAAANAB8AAAAKAA0AAAANAB8AAAALAP//AAANAB8AAAALAAAAAAANAB8AAAALAAEAAAANAB8AAAALAAIAAAALABwAAAALAAMAAAALAB4AAAALAAQAAAALAB4AAAALAAUAAAALAB4AAAALAAYAAAALAB4AAAALAAcAAAALAB4AAAALAAgAAAALAB4AAAALAAkAAAALAB4AAAALAAoAAAALACAAAAALAAsAAAANAB8AAAALAAwAAAANAB8AAAALAA0AAAANAB8AAAAMAP//AAANAB8AAAAMAAAAAAANAB8AAAAMAAEAAAANAB8AAAAMAAIAAAALABwAAAAMAAMAAAALAB4AAAAMAAQAAAALAB4AAAAMAAUAAAALAB4AAAAMAAYAAAALAB4AAAAMAAcAAAALAB4AAAAMAAgAAAALAB4AAAAMAAkAAAALAB4AAAAMAAoAAAALACAAAAAMAAsAAAANAB8AAAAMAAwAAAANAB8AAAAMAA0AAAANAB8AAAANAP//AAANAB8AAAANAAAAAAANAB8AAAANAAEAAAANAB8AAAANAAIAAAALABwAAAANAAMAAAALAB4AAAANAAQAAAALAB4AAAANAAUAAAALAB4AAAANAAYAAAALAB4AAAANAAcAAAALAB4AAAANAAgAAAALAB4AAAANAAkAAAALAB4AAAANAAoAAAALACAAAAANAAsAAAANAB8AAAANAAwAAAANAB8AAAANAA0AAAANAB8AAAAOAP//AAANAB8AAAAOAAAAAAANAB8AAAAOAAEAAAANAB8AAAAOAAIAAAALABwAAAAOAAMAAAALAB4AAAAOAAQAAAALAB4AAAAOAAUAAAALAB4AAAAOAAYAAAALAB4AAAAOAAcAAAALAB4AAAAOAAgAAAALAB4AAAAOAAkAAAALAB4AAAAOAAoAAAALACAAAAAOAAsAAAANAB8AAAAOAAwAAAANAB8AAAAOAA0AAAANAB8AAAAPAP//AAANAB8AAAAPAAAAAAANAB8AAAAPAAEAAAANAB8AAAAPAAIAAAALABwAAAAPAAMAAAALAB4AAAAPAAQAAAALAB4AAAAPAAUAAAALAB4AAAAPAAYAAAALAB4AAAAPAAcAAAALAB4AAAAPAAgAAAALAB4AAAAPAAkAAAALAB4AAAAPAAoAAAALACAAAAAPAAsAAAANAB8AAAAPAAwAAAANAB8AAAAPAA0AAAANAB8AAAAQAP//AAANAB8AAAAQAAAAAAANAB8AAAAQAAEAAAANAB8AAAAQAAIAAAALABwAAAAQAAMAAAALAB4AAAAQAAQAAAALAB4AAAAQAAUAAAALAB4AAAAQAAYAAAALAB4AAAAQAAcAAAALAB4AAAAQAAgAAAALAB4AAAAQAAkAAAALAB4AAAAQAAoAAAALACAAAAAQAAsAAAANAB8AAAAQAAwAAAANAB8AAAAQAA0AAAANAB8AAAARAP//AAANAB8AAAARAAAAAAANAB8AAAARAAEAAAANAB8AAAARAAIAAAALABwAAAARAAMAAAALAB4AAAARAAQAAAALAB4AAAARAAUAAAALAB4AAAARAAYAAAALAB4AAAARAAcAAAALAB4AAAARAAgAAAALAB4AAAARAAkAAAALAB4AAAARAAoAAAALACAAAAARAAsAAAANAB8AAAARAAwAAAANAB8AAAARAA0AAAANAB8AAAASAP//AAANAB8AAAASAAAAAAANAB8AAAASAAEAAAANAB8AAAASAAIAAAALABwAAAASAAMAAAALAB4AAAASAAQAAAALAB4AAAASAAUAAAALAB4AAAASAAYAAAALAB4AAAASAAcAAAALAB4AAAASAAgAAAALAB4AAAASAAkAAAALAB4AAAASAAoAAAALACAAAAASAAsAAAANAB8AAAASAAwAAAANAB8AAAASAA0AAAANAB8AAAATAP//AAANAB8AAAATAAAAAAANAB8AAAATAAEAAAANAB8AAAATAAIAAAAMABwAAAATAAMAAAAMAB0AAAATAAQAAAALAB4AAAATAAUAAAALAB4AAAATAAYAAAALAB4AAAATAAcAAAALAB4AAAATAAgAAAALAB4AAAATAAkAAAAMAB8AAAATAAoAAAANAB8AAAATAAsAAAANAB8AAAATAAwAAAANAB8AAAATAA0AAAANAB8AAAAUAP//AAANAB8AAAAUAAAAAAANAB8AAAAUAAEAAAANAB8AAAAUAAMAAAANAB4AAAAUAAQAAAANAB4AAAAUAAUAAAANAB4AAAAUAAYAAAANAB4AAAAUAAcAAAANAB4AAAAUAAgAAAANAB4AAAAUAAkAAAANAB8AAAAUAAoAAAANAB8AAAAUAAsAAAANAB8AAAAUAAwAAAANAB8AAAAUAA0AAAANAB8AAAAVAP//AAANAB8AAAAVAAAAAAANAB8AAAAVAAEAAAANAB8AAAAVAAIAAAANAB8AAAAVAAMAAAANAB8AAAAVAAQAAAANAB8AAAAVAAUAAAANAB8AAAAVAAYAAAANAB8AAAAVAAcAAAANAB8AAAAVAAgAAAANAB8AAAAVAAkAAAANAB8AAAAVAAoAAAANAB8AAAAVAAsAAAANAB8AAAAVAAwAAAANAB8AAAAVAA0AAAANAB8AAAAWAP//AAANAB8AAAAWAAAAAAANAB8AAAAWAAEAAAANAB8AAAAWAAIAAAANAB8AAAAWAAMAAAANAB8AAAAWAAQAAAANAB8AAAAWAAUAAAANAB8AAAAWAAYAAAANAB8AAAAWAAcAAAANAB8AAAAWAAgAAAANAB8AAAAWAAkAAAANAB8AAAAWAAoAAAANAB8AAAAWAAsAAAANAB8AAAAWAAwAAAANAB8AAAAWAA0AAAANAB8AAAAXAP//AAANAB8AAAAXAAAAAAANAB8AAAAXAAEAAAANAB8AAAAXAAIAAAANAB8AAAAXAAMAAAANAB8AAAAXAAQAAAANAB8AAAAXAAUAAAANAB8AAAAXAAYAAAANAB8AAAAXAAcAAAANAB8AAAAXAAgAAAANAB8AAAAXAAkAAAANAB8AAAAXAAoAAAANAB8AAAAXAAsAAAANAB8AAAAXAAwAAAANAB8AAAAXAA0AAAANAB8AAAAYAP//AAANAB8AAAAYAAAAAAANAB8AAAAYAAEAAAANAB8AAAAYAAIAAAANAB8AAAAYAAMAAAANAB8AAAAYAAQAAAANAB8AAAAYAAUAAAANAB8AAAAYAAYAAAANAB8AAAAYAAcAAAANAB8AAAAYAAgAAAANAB8AAAAYAAkAAAANAB8AAAAYAAoAAAANAB8AAAAYAAsAAAANAB8AAAAYAAwAAAANAB8AAAAYAA0AAAANAB8AAAAUAAIAAAANAB8AAAADAAIAAAANAB8AAAD///7/AAAJAB8AAAAAAP7/AAAJAB8AAAABAP7/AAAJAB8AAAACAP7/AAAJAB8AAAADAP7/AAAJAB8AAAAEAP7/AAAJAB8AAAAFAP7/AAAJAB8AAAAGAP7/AAAJAB8AAAAHAP7/AAAJAB8AAAAIAP7/AAAJAB8AAAAJAP7/AAAJAB8AAAAKAP7/AAAJAB8AAAALAP7/AAAJAB8AAAAMAP7/AAAJAB8AAAANAP7/AAAJAB8AAAAOAP7/AAAJAB8AAAAPAP7/AAAJAB8AAAAQAP7/AAAJAB8AAAARAP7/AAAJAB8AAAASAP7/AAAJAB8AAAATAP7/AAAJAB8AAAAUAP7/AAAJAB8AAAAVAP7/AAAJAB8AAAAWAP7/AAAJAB8AAAAXAP7/AAAJAB8AAAAYAP7/AAAJAB8AAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerFloorTop" type="TileMapLayer" parent="CharSelect" unique_id=2099705750]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD/////AAANAB8AAAD//wAAAAANAB8AAAD//wEAAAANAB8AAAD//wIAAAANAB8AAAD//wMAAAANAB8AAAD//wQAAAANAB8AAAD//wUAAAANAB8AAAD//wYAAAANAB8AAAD//wcAAAANAB8AAAD//wgAAAANAB8AAAD//wkAAAANAB8AAAD//woAAAANAB8AAAD//wsAAAANAB8AAAD//wwAAAANAB8AAAD//w0AAAANAB8AAAAAAP//AAANAB8AAAAAAAAAAAANAB8AAAAAAAEAAAANAB8AAAAAAAIAAAANAB8AAAAAAAMAAAANAB8AAAAAAAQAAAANAB8AAAAAAAUAAAANAB8AAAAAAAYAAAANAB8AAAAAAAcAAAANAB8AAAAAAAgAAAANAB8AAAAAAAkAAAANAB8AAAAAAAoAAAANAB8AAAAAAAsAAAANAB8AAAAAAAwAAAANAB8AAAAAAA0AAAANAB8AAAABAP//AAANAB8AAAABAAAAAAANAB8AAAABAAEAAAANAB8AAAABAAIAAAANAB8AAAABAAMAAAANAB8AAAABAAQAAAANAB8AAAABAAUAAAANAB8AAAABAAYAAAANAB8AAAABAAcAAAANAB8AAAABAAgAAAANAB8AAAABAAkAAAANAB8AAAABAAoAAAANAB8AAAABAAsAAAANAB8AAAABAAwAAAANAB8AAAABAA0AAAANAB8AAAACAP//AAANAB8AAAACAAAAAAANAB8AAAACAAEAAAANAB8AAAACAAIAAAANAB8AAAACAAMAAAANAB8AAAACAAQAAAANAB8AAAACAAUAAAANAB8AAAACAAYAAAANAB8AAAACAAcAAAANAB8AAAACAAgAAAANAB8AAAACAAkAAAANAB8AAAACAAoAAAANAB8AAAACAAsAAAANAB8AAAACAAwAAAANAB8AAAACAA0AAAANAB8AAAADAP//AAANAB8AAAADAAAAAAANAB8AAAADAAEAAAANAB8AAAADAAMAAAAJAB4AAAADAAQAAAAJAB4AAAADAAUAAAAJAB4AAAADAAYAAAAJAB4AAAADAAcAAAAJAB4AAAADAAgAAAAJAB4AAAADAAkAAAAJAB8AAAADAAoAAAAJAB8AAAADAAsAAAANAB8AAAADAAwAAAANAB8AAAADAA0AAAANAB8AAAAEAP//AAANAB8AAAAEAAAAAAANAB8AAAAEAAEAAAANAB8AAAAEAAIAAAAKABwAAAAEAAMAAAAKAB0AAAAEAAQAAAALAB4AAAAEAAUAAAANAAYAAFAEAAYAAAAOAAYAAFAEAAcAAAANAAYAAAAEAAgAAAALAB4AAAAEAAkAAAAKAB8AAAAEAAoAAAAJAB8AAAAEAAsAAAANAB8AAAAEAAwAAAANAB8AAAAEAA0AAAANAB8AAAAFAP//AAANAB8AAAAFAAAAAAANAB8AAAAFAAEAAAANAB8AAAAFAAIAAAALABwAAAAFAAMAAAALAB4AAAAFAAQAAAALAB4AAAAFAAUAAAAOAAYAADAFAAYAAAAOAAUAAEAFAAcAAAAOAAYAAAAFAAgAAAALAB4AAAAFAAkAAAALAB4AAAAFAAoAAAALACAAAAAFAAsAAAANAB8AAAAFAAwAAAANAB8AAAAFAA0AAAANAB8AAAAGAP//AAANAB8AAAAGAAAAAAANAB8AAAAGAAEAAAANAB8AAAAGAAIAAAALABwAAAAGAAMAAAALAB4AAAAGAAQAAAALAB4AAAAGAAUAAAANAAYAADAGAAYAAAAOAAYAAGAGAAcAAAAPAAYAAAAGAAgAAAALAB4AAAAGAAkAAAALAB4AAAAGAAoAAAALACAAAAAGAAsAAAANAB8AAAAGAAwAAAANAB8AAAAGAA0AAAANAB8AAAAHAP//AAANAB8AAAAHAAAAAAANAB8AAAAHAAEAAAANAB8AAAAHAAIAAAALABwAAAAHAAMAAAALAB4AAAAHAAQAAAALAB4AAAAHAAUAAAALAB4AAAAHAAYAAAALAB4AAAAHAAcAAAALAB4AAAAHAAgAAAALAB4AAAAHAAkAAAALAB4AAAAHAAoAAAALACAAAAAHAAsAAAANAB8AAAAHAAwAAAANAB8AAAAHAA0AAAANAB8AAAAIAP//AAANAB8AAAAIAAAAAAANAB8AAAAIAAEAAAANAB8AAAAIAAIAAAALABwAAAAIAAMAAAAPAAYAADAIAAQAAAAOAAYAAFAIAAUAAAANAAYAAAAIAAYAAAALAB4AAAAIAAcAAAALAB4AAAAIAAgAAAALAB4AAAAIAAkAAAALAB4AAAAIAAoAAAALACAAAAAIAAsAAAANAB8AAAAIAAwAAAANAB8AAAAIAA0AAAANAB8AAAAJAP//AAANAB8AAAAJAAAAAAANAB8AAAAJAAEAAAANAB8AAAAJAAIAAAALABwAAAAJAAMAAAAOAAYAADAJAAUAAAAOAAYAAAAJAAYAAAALAB4AAAAJAAcAAAALAB4AAAAJAAgAAAALAB4AAAAJAAkAAAALAB4AAAAJAAoAAAALACAAAAAJAAsAAAANAB8AAAAJAAwAAAANAB8AAAAJAA0AAAANAB8AAAAKAP//AAANAB8AAAAKAAAAAAANAB8AAAAKAAEAAAANAB8AAAAKAAIAAAALABwAAAAKAAMAAAAOAAYAADAKAAQAAAAOAAUAAAAKAAUAAAAOAAYAAAAKAAYAAAALAB4AAAAKAAcAAAALAB4AAAAKAAgAAAALAB4AAAAKAAkAAAALAB4AAAAKAAoAAAALACAAAAAKAAsAAAANAB8AAAAKAAwAAAANAB8AAAAKAA0AAAANAB8AAAALAP//AAANAB8AAAALAAAAAAANAB8AAAALAAEAAAANAB8AAAALAAIAAAALABwAAAALAAMAAAAOAAYAADALAAQAAAAOAAUAAAALAAUAAAAOAAYAAAALAAYAAAALAB4AAAALAAcAAAALAB4AAAALAAgAAAALAB4AAAALAAkAAAALAB4AAAALAAoAAAALACAAAAALAAsAAAANAB8AAAALAAwAAAANAB8AAAALAA0AAAANAB8AAAAMAP//AAANAB8AAAAMAAAAAAANAB8AAAAMAAEAAAANAB8AAAAMAAIAAAALABwAAAAMAAMAAAAPAAYAAGAMAAQAAAAOAAYAAGAMAAUAAAAPAAYAAAAMAAYAAAALAB4AAAAMAAcAAAALAB4AAAAMAAgAAAALAB4AAAAMAAkAAAALAB4AAAAMAAoAAAALACAAAAAMAAsAAAANAB8AAAAMAAwAAAANAB8AAAAMAA0AAAANAB8AAAANAP//AAANAB8AAAANAAAAAAANAB8AAAANAAEAAAANAB8AAAANAAIAAAALABwAAAANAAMAAAALAB4AAAANAAQAAAALAB4AAAANAAUAAAALAB4AAAANAAYAAAALAB4AAAANAAcAAAALAB4AAAANAAgAAAALAB4AAAANAAkAAAALAB4AAAANAAoAAAALACAAAAANAAsAAAANAB8AAAANAAwAAAANAB8AAAANAA0AAAANAB8AAAAOAP//AAANAB8AAAAOAAAAAAANAB8AAAAOAAEAAAANAB8AAAAOAAIAAAALABwAAAAOAAMAAAALAB4AAAAOAAQAAAALAB4AAAAOAAUAAAALAB4AAAAOAAYAAAALAB4AAAAOAAcAAAALAB4AAAAOAAgAAAALAB4AAAAOAAkAAAALAB4AAAAOAAoAAAALACAAAAAOAAsAAAANAB8AAAAOAAwAAAANAB8AAAAOAA0AAAANAB8AAAAPAP//AAANAB8AAAAPAAAAAAANAB8AAAAPAAEAAAANAB8AAAAPAAIAAAALABwAAAAPAAMAAAALAB4AAAAPAAQAAAALAB4AAAAPAAUAAAALAB4AAAAPAAYAAAALAB4AAAAPAAcAAAALAB4AAAAPAAgAAAALAB4AAAAPAAkAAAALAB4AAAAPAAoAAAALACAAAAAPAAsAAAANAB8AAAAPAAwAAAANAB8AAAAPAA0AAAANAB8AAAAQAP//AAANAB8AAAAQAAAAAAANAB8AAAAQAAEAAAANAB8AAAAQAAIAAAALABwAAAAQAAMAAAAOAAYAAFAQAAQAAAANAAYAAAAQAAUAAAALAB4AAAAQAAYAAAALAB4AAAAQAAcAAAALAB4AAAAQAAgAAAALAB4AAAAQAAkAAAALAB4AAAAQAAoAAAALACAAAAAQAAsAAAANAB8AAAAQAAwAAAANAB8AAAAQAA0AAAANAB8AAAARAP//AAANAB8AAAARAAAAAAANAB8AAAARAAEAAAANAB8AAAARAAIAAAALABwAAAARAAMAAAAOAAUAAEARAAQAAAAOAAYAAAARAAUAAAALAB4AAAARAAYAAAALAB4AAAARAAcAAAALAB4AAAARAAgAAAALAB4AAAARAAkAAAALAB4AAAARAAoAAAALACAAAAARAAsAAAANAB8AAAARAAwAAAANAB8AAAARAA0AAAANAB8AAAASAP//AAANAB8AAAASAAAAAAANAB8AAAASAAEAAAANAB8AAAASAAIAAAALABwAAAASAAMAAAAOAAYAAGASAAQAAAAPAAYAAAASAAUAAAALAB4AAAASAAYAAAALAB4AAAASAAcAAAALAB4AAAASAAgAAAALAB4AAAASAAkAAAALAB4AAAASAAoAAAALACAAAAASAAsAAAANAB8AAAASAAwAAAANAB8AAAASAA0AAAANAB8AAAATAP//AAANAB8AAAATAAAAAAANAB8AAAATAAEAAAANAB8AAAATAAIAAAAMABwAAAATAAMAAAAMAB0AAAATAAQAAAALAB4AAAATAAUAAAALAB4AAAATAAYAAAALAB4AAAATAAcAAAALAB4AAAATAAgAAAALAB4AAAATAAkAAAAMAB8AAAATAAoAAAANAB8AAAATAAsAAAANAB8AAAATAAwAAAANAB8AAAATAA0AAAANAB8AAAAUAP//AAANAB8AAAAUAAAAAAANAB8AAAAUAAEAAAANAB8AAAAUAAMAAAANAB4AAAAUAAQAAAANAB4AAAAUAAUAAAANAB4AAAAUAAYAAAANAB4AAAAUAAcAAAANAB4AAAAUAAgAAAANAB4AAAAUAAkAAAANAB8AAAAUAAoAAAANAB8AAAAUAAsAAAANAB8AAAAUAAwAAAANAB8AAAAUAA0AAAANAB8AAAAVAP//AAANAB8AAAAVAAAAAAANAB8AAAAVAAEAAAANAB8AAAAVAAIAAAANAB8AAAAVAAMAAAANAB8AAAAVAAQAAAANAB8AAAAVAAUAAAANAB8AAAAVAAYAAAANAB8AAAAVAAcAAAANAB8AAAAVAAgAAAANAB8AAAAVAAkAAAANAB8AAAAVAAoAAAANAB8AAAAVAAsAAAANAB8AAAAVAAwAAAANAB8AAAAVAA0AAAANAB8AAAAWAP//AAANAB8AAAAWAAAAAAANAB8AAAAWAAEAAAANAB8AAAAWAAIAAAANAB8AAAAWAAMAAAANAB8AAAAWAAQAAAANAB8AAAAWAAUAAAANAB8AAAAWAAYAAAANAB8AAAAWAAcAAAANAB8AAAAWAAgAAAANAB8AAAAWAAkAAAANAB8AAAAWAAoAAAANAB8AAAAWAAsAAAANAB8AAAAWAAwAAAANAB8AAAAWAA0AAAANAB8AAAAXAP//AAANAB8AAAAXAAAAAAANAB8AAAAXAAEAAAANAB8AAAAXAAIAAAANAB8AAAAXAAMAAAANAB8AAAAXAAQAAAANAB8AAAAXAAUAAAANAB8AAAAXAAYAAAANAB8AAAAXAAcAAAANAB8AAAAXAAgAAAANAB8AAAAXAAkAAAANAB8AAAAXAAoAAAANAB8AAAAXAAsAAAANAB8AAAAXAAwAAAANAB8AAAAXAA0AAAANAB8AAAAYAP//AAANAB8AAAAYAAAAAAANAB8AAAAYAAEAAAANAB8AAAAYAAIAAAANAB8AAAAYAAMAAAANAB8AAAAYAAQAAAANAB8AAAAYAAUAAAANAB8AAAAYAAYAAAANAB8AAAAYAAcAAAANAB8AAAAYAAgAAAANAB8AAAAYAAkAAAANAB8AAAAYAAoAAAANAB8AAAAYAAsAAAANAB8AAAAYAAwAAAANAB8AAAAYAA0AAAANAB8AAAAUAAIAAAANAB8AAAADAAIAAAANAB8AAAAJAAQAAAAOAAUAAEA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="TileMapLayerItems" type="TileMapLayer" parent="CharSelect" unique_id=628475587]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAD/////AAANAB8AAAD//wAAAAANAB8AAAD//wEAAAANAB8AAAD//wIAAAANAB8AAAD//wMAAAANAB8AAAD//wQAAAANAB8AAAD//wUAAAANAB8AAAD//wYAAAANAB8AAAD//wcAAAANAB8AAAD//wgAAAANAB8AAAD//wkAAAANAB8AAAD//woAAAANAB8AAAD//wsAAAANAB8AAAD//wwAAAANAB8AAAD//w0AAAANAB8AAAAAAP//AAANAB8AAAAAAAAAAAANAB8AAAAAAAEAAAANAB8AAAAAAAIAAAANAB8AAAAAAAMAAAANAB8AAAAAAAQAAAANAB8AAAAAAAUAAAANAB8AAAAAAAYAAAANAB8AAAAAAAcAAAANAB8AAAAAAAgAAAANAB8AAAAAAAkAAAANAB8AAAAAAAoAAAANAB8AAAAAAAsAAAANAB8AAAAAAAwAAAANAB8AAAAAAA0AAAANAB8AAAABAP//AAANAB8AAAABAAAAAAANAB8AAAABAAEAAAANAB8AAAABAAIAAAANAB8AAAABAAMAAAANAB8AAAABAAQAAAANAB8AAAABAAUAAAANAB8AAAABAAYAAAANAB8AAAABAAcAAAANAB8AAAABAAgAAAANAB8AAAABAAkAAAANAB8AAAABAAoAAAANAB8AAAABAAsAAAANAB8AAAABAAwAAAANAB8AAAABAA0AAAANAB8AAAACAP//AAANAB8AAAACAAAAAAANAB8AAAACAAEAAAANAB8AAAACAAIAAAANAB8AAAACAAMAAAANAB8AAAACAAQAAAANAB8AAAACAAUAAAANAB8AAAACAAYAAAANAB8AAAACAAcAAAANAB8AAAACAAgAAAANAB8AAAACAAkAAAANAB8AAAACAAoAAAANAB8AAAACAAsAAAANAB8AAAACAAwAAAANAB8AAAACAA0AAAANAB8AAAADAP//AAANAB8AAAADAAAAAAANAB8AAAADAAEAAAANAB8AAAADAAMAAAAJAB4AAAADAAQAAAAJAB4AAAADAAUAAAAJAB4AAAADAAYAAAAJAB4AAAADAAcAAAAJAB4AAAADAAgAAAAJAB4AAAADAAkAAAAJAB8AAAADAAoAAAAJAB8AAAADAAsAAAANAB8AAAADAAwAAAANAB8AAAADAA0AAAANAB8AAAAEAP//AAANAB8AAAAEAAAAAAANAB8AAAAEAAEAAAANAB8AAAAEAAIAAAAKABwAAAAEAAMAAAAKAB0AAAAEAAUAAAAlAAkAAAAEAAYAAAAlAAoAAAAEAAcAAAAlAAsAAAAEAAkAAAAKAB8AAAAEAAoAAAAJAB8AAAAEAAsAAAANAB8AAAAEAAwAAAANAB8AAAAEAA0AAAANAB8AAAAFAP//AAANAB8AAAAFAAAAAAANAB8AAAAFAAEAAAANAB8AAAAFAAIAAAALABwAAAAFAAUAAAAmAAkAAAAFAAYAAAAmAAoAAAAFAAcAAAAmAAsAAAAFAAoAAAALACAAAAAFAAsAAAANAB8AAAAFAAwAAAANAB8AAAAFAA0AAAANAB8AAAAGAP//AAANAB8AAAAGAAAAAAANAB8AAAAGAAEAAAANAB8AAAAGAAIAAAALABwAAAAGAAUAAAAyAAcAAAAGAAYAAAAOAAYAAGAGAAcAAAAPAAYAAAAGAAoAAAALACAAAAAGAAsAAAANAB8AAAAGAAwAAAANAB8AAAAGAA0AAAANAB8AAAAHAP//AAANAB8AAAAHAAAAAAANAB8AAAAHAAEAAAANAB8AAAAHAAIAAAALABwAAAAHAAcAAAALAB4AAAAHAAoAAAALACAAAAAHAAsAAAANAB8AAAAHAAwAAAANAB8AAAAHAA0AAAANAB8AAAAIAP//AAANAB8AAAAIAAAAAAANAB8AAAAIAAEAAAANAB8AAAAIAAIAAAALABwAAAAIAAMAAAAPAAYAADAIAAQAAAAOAAYAAFAIAAUAAAANAAYAAAAIAAoAAAALACAAAAAIAAsAAAANAB8AAAAIAAwAAAANAB8AAAAIAA0AAAANAB8AAAAJAP//AAANAB8AAAAJAAAAAAANAB8AAAAJAAEAAAANAB8AAAAJAAIAAAALABwAAAAJAAMAAAAOAAYAADAJAAUAAAAOAAYAAAAJAAoAAAALACAAAAAJAAsAAAANAB8AAAAJAAwAAAANAB8AAAAJAA0AAAANAB8AAAAKAP//AAANAB8AAAAKAAAAAAANAB8AAAAKAAEAAAANAB8AAAAKAAIAAAALABwAAAAKAAMAAAAOAAYAADAKAAQAAAAOAAUAAAAKAAUAAAAOAAYAAAAKAAoAAAALACAAAAAKAAsAAAANAB8AAAAKAAwAAAANAB8AAAAKAA0AAAANAB8AAAALAP//AAANAB8AAAALAAAAAAANAB8AAAALAAEAAAANAB8AAAALAAIAAAALABwAAAALAAMAAAAOAAYAADALAAQAAAAOAAUAAAALAAUAAAAOAAYAAAALAAgAAAA1AB4AAAALAAoAAAALACAAAAALAAsAAAANAB8AAAALAAwAAAANAB8AAAALAA0AAAANAB8AAAAMAP//AAANAB8AAAAMAAAAAAANAB8AAAAMAAEAAAANAB8AAAAMAAIAAAALABwAAAAMAAMAAAAxABMAAAAMAAQAAAAOAAYAAGAMAAUAAAAPAAYAAAAMAAcAAAA2AB0AAAAMAAgAAAA2AB4AAAAMAAoAAAALACAAAAAMAAsAAAANAB8AAAAMAAwAAAANAB8AAAAMAA0AAAANAB8AAAANAP//AAANAB8AAAANAAAAAAANAB8AAAANAAEAAAAqAAsAAAANAAIAAAAqAAwAAAANAAMAAAAqAA0AAAANAAoAAAALACAAAAANAAsAAAANAB8AAAANAAwAAAANAB8AAAANAA0AAAANAB8AAAAOAP//AAANAB8AAAAOAAAAAAANAB8AAAAOAAEAAAANAB8AAAAOAAIAAAAzABMAAAAOAAMAAAAzABQAAAAOAAcAAAA1AB0AAAAOAAgAAAA1AB4AAAAOAAoAAAALACAAAAAOAAsAAAANAB8AAAAOAAwAAAANAB8AAAAOAA0AAAANAB8AAAAPAP//AAANAB8AAAAPAAAAAAANAB8AAAAPAAEAAAANAB8AAAAPAAIAAAA0ABMAAAAPAAMAAAA0ABQAAAAPAAcAAAA2AB0AAAAPAAgAAAA2AB4AAAAPAAoAAAALACAAAAAPAAsAAAANAB8AAAAPAAwAAAANAB8AAAAPAA0AAAANAB8AAAAQAP//AAANAB8AAAAQAAAAAAANAB8AAAAQAAEAAAANAB8AAAAQAAIAAAALABwAAAAQAAMAAAAOAAYAAFAQAAQAAAANAAYAAAAQAAoAAAALACAAAAAQAAsAAAANAB8AAAAQAAwAAAANAB8AAAAQAA0AAAANAB8AAAARAP//AAANAB8AAAARAAAAAAANAB8AAAARAAEAAAANAB8AAAARAAIAAAALABwAAAARAAMAAAAOAAUAAEARAAQAAAAOAAYAAAARAAoAAAALACAAAAARAAsAAAANAB8AAAARAAwAAAANAB8AAAARAA0AAAANAB8AAAASAP//AAANAB8AAAASAAAAAAANAB8AAAASAAEAAAANAB8AAAASAAIAAAALABwAAAASAAMAAAAOAAYAAGASAAQAAAAPAAYAAAASAAoAAAALACAAAAASAAsAAAANAB8AAAASAAwAAAANAB8AAAASAA0AAAANAB8AAAATAP//AAANAB8AAAATAAAAAAANAB8AAAATAAEAAAANAB8AAAATAAIAAAAMABwAAAATAAMAAAAMAB0AAAATAAkAAAAMAB8AAAATAAoAAAANAB8AAAATAAsAAAANAB8AAAATAAwAAAANAB8AAAATAA0AAAANAB8AAAAUAP//AAANAB8AAAAUAAAAAAANAB8AAAAUAAEAAAANAB8AAAAUAAMAAAANAB4AAAAUAAQAAAANAB4AAAAUAAUAAAANAB4AAAAUAAYAAAANAB4AAAAUAAcAAAANAB4AAAAUAAgAAAANAB4AAAAUAAkAAAANAB8AAAAUAAoAAAANAB8AAAAUAAsAAAANAB8AAAAUAAwAAAANAB8AAAAUAA0AAAANAB8AAAAVAP//AAANAB8AAAAVAAAAAAANAB8AAAAVAAEAAAANAB8AAAAVAAIAAAANAB8AAAAVAAMAAAANAB8AAAAVAAQAAAANAB8AAAAVAAUAAAANAB8AAAAVAAYAAAANAB8AAAAVAAcAAAANAB8AAAAVAAgAAAANAB8AAAAVAAkAAAANAB8AAAAVAAoAAAANAB8AAAAVAAsAAAANAB8AAAAVAAwAAAANAB8AAAAVAA0AAAANAB8AAAAWAP//AAANAB8AAAAWAAAAAAANAB8AAAAWAAEAAAANAB8AAAAWAAIAAAANAB8AAAAWAAMAAAANAB8AAAAWAAQAAAANAB8AAAAWAAUAAAANAB8AAAAWAAYAAAANAB8AAAAWAAcAAAANAB8AAAAWAAgAAAANAB8AAAAWAAkAAAANAB8AAAAWAAoAAAANAB8AAAAWAAsAAAANAB8AAAAWAAwAAAANAB8AAAAWAA0AAAANAB8AAAAXAP//AAANAB8AAAAXAAAAAAANAB8AAAAXAAEAAAANAB8AAAAXAAIAAAANAB8AAAAXAAMAAAANAB8AAAAXAAQAAAANAB8AAAAXAAUAAAANAB8AAAAXAAYAAAANAB8AAAAXAAcAAAANAB8AAAAXAAgAAAANAB8AAAAXAAkAAAANAB8AAAAXAAoAAAANAB8AAAAXAAsAAAANAB8AAAAXAAwAAAANAB8AAAAXAA0AAAANAB8AAAAYAP//AAANAB8AAAAYAAAAAAANAB8AAAAYAAEAAAANAB8AAAAYAAIAAAANAB8AAAAYAAMAAAANAB8AAAAYAAQAAAANAB8AAAAYAAUAAAANAB8AAAAYAAYAAAANAB8AAAAYAAcAAAANAB8AAAAYAAgAAAANAB8AAAAYAAkAAAANAB8AAAAYAAoAAAANAB8AAAAYAAsAAAANAB8AAAAYAAwAAAANAB8AAAAYAA0AAAANAB8AAAAUAAIAAAANAB8AAAADAAIAAAANAB8AAAAJAAQAAAAOAAUAAEARAAgAAAALAB4AAAASAAcAAAAlABYAAAASAAYAAAAlABUAAAASAAUAAAALAB4AAAARAAUAAAALAB4AAAAQAAUAAAALAB4AAAAPAAUAAAALAB4AAAAPAAQAAAALAB4AAAAOAAQAAAALAB4AAAANAAQAAAALAB4AAAANAAUAAAALAB4AAAANAAYAAAALAB4AAAAMAAYAAAALAB4AAAAHAAYAAAALAB4AAAAHAAUAAAALAB4AAAAHAAQAAAALAB4AAAAHAAMAAAALAB4AAAAGAAMAAAALAB4AAAAFAAMAAAALAB4AAAAFAAQAAAALAB4AAAAEAAQAAAALAB4AAAAGAAQAAAALAB4AAAAKAAgAAAALAB4AAAAKAAkAAAALAB4AAAAJAAkAAAALAB4AAAAIAAkAAAALAB4AAAAHAAkAAAALAB4AAAAHAAgAAAALAB4AAAAGAAgAAAALAB4AAAAFAAgAAAALAB4AAAAEAAgAAAALAB4AAAAFAAkAAAALAB4AAAAGAAkAAAALAB4AAAALAAkAAAALAB4AAAAMAAkAAAALAB4AAAANAAkAAAALAB4AAAANAAgAAAALAB4AAAANAAcAAAALAB4AAAAOAAkAAAALAB4AAAAPAAkAAAALAB4AAAAQAAkAAAALAB4AAAAQAAgAAAALAB4AAAAQAAcAAAALAB4AAAAQAAYAAAALAB4AAAAPAAYAAAALAB4AAAAOAAYAAAALAB4AAAAOAAUAAAALAB4AAAARAAYAAAALAB4AAAARAAcAAAALAB4AAAARAAkAAAALAB4AAAASAAkAAAALAB4AAAASAAgAAAALAB4AAAATAAgAAAALAB4AAAATAAcAAAAmABYAAAATAAYAAAAmABUAAAATAAUAAAALAB4AAAATAAQAAAALAB4AAAAKAAYAAAALAB4AAAAKAAcAAAALAB4AAAALAAYAAAALAB4AAAALAAcAAAA1AB0AAAAIAAcAAAA1AB0AAAAJAAcAAAA2AB0AAAAIAAYAAAALAB4AAAAJAAYAAAALAB4AAAAIAAgAAAA1AB4AAAAJAAgAAAA2AB4AAAA=")
+tile_set = SubResource("TileSet_h2yge")
+
+[node name="P1" type="Node2D" parent="CharSelect" unique_id=1389665664]
+
+[node name="Body" type="Sprite2D" parent="CharSelect/P1" unique_id=1646027271]
+z_index = 5
+z_as_relative = false
+texture_filter = 1
+position = Vector2(430, 366)
+scale = Vector2(3, 3)
+texture = ExtResource("5_kek77")
+hframes = 9
+
+[node name="Hair" type="Sprite2D" parent="CharSelect/P1/Body" unique_id=2100588305]
+z_index = 6
+z_as_relative = false
+texture_filter = 1
+texture = ExtResource("6_4c57u")
+hframes = 9
+frame = 3
+
+[node name="Weapon" type="Sprite2D" parent="CharSelect/P1/Body" unique_id=887307777]
+z_index = 4
+z_as_relative = false
+texture_filter = 1
+position = Vector2(9.33334, 0.33333206)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("7_efxa6")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharSelect/P1/Body" unique_id=942969546]
+libraries/ = SubResource("AnimationLibrary_yaehf")
+
+[node name="P2" type="Node2D" parent="CharSelect" unique_id=1620872757]
+position = Vector2(144, 3)
+
+[node name="Body" type="Sprite2D" parent="CharSelect/P2" unique_id=1070263440]
+z_index = 5
+z_as_relative = false
+texture_filter = 1
+position = Vector2(430, 366)
+scale = Vector2(3, 3)
+texture = ExtResource("5_kek77")
+hframes = 9
+
+[node name="Hair" type="Sprite2D" parent="CharSelect/P2/Body" unique_id=575044258]
+z_index = 6
+z_as_relative = false
+texture_filter = 1
+texture = ExtResource("8_dg77c")
+hframes = 9
+frame = 3
+
+[node name="Weapon" type="Sprite2D" parent="CharSelect/P2/Body" unique_id=876246279]
+z_index = 8
+z_as_relative = false
+texture_filter = 1
+position = Vector2(9.33334, 0.33333206)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("9_ycdy4")
+
+[node name="Weapon2" type="Sprite2D" parent="CharSelect/P2/Body" unique_id=918332516]
+z_index = 8
+z_as_relative = false
+texture_filter = 1
+position = Vector2(-5.666626, 5.6666565)
+rotation = 3.1712632
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("9_ycdy4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharSelect/P2/Body" unique_id=1376915769]
+libraries/ = SubResource("AnimationLibrary_yaehf")
+
+[node name="P3" type="Node2D" parent="CharSelect" unique_id=541383549]
+position = Vector2(290, 4)
+
+[node name="Body" type="Sprite2D" parent="CharSelect/P3" unique_id=60515434]
+z_index = 5
+z_as_relative = false
+texture_filter = 1
+position = Vector2(430, 366)
+scale = Vector2(3, 3)
+texture = ExtResource("5_kek77")
+hframes = 9
+
+[node name="Hair" type="Sprite2D" parent="CharSelect/P3/Body" unique_id=1497064926]
+z_index = 6
+z_as_relative = false
+texture_filter = 1
+texture = ExtResource("10_efxa6")
+hframes = 9
+frame = 3
+
+[node name="Weapon" type="Sprite2D" parent="CharSelect/P3/Body" unique_id=585398143]
+z_index = 8
+z_as_relative = false
+texture_filter = 1
+position = Vector2(9.33334, 0.33333206)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("11_dg77c")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharSelect/P3/Body" unique_id=1038112411]
+libraries/ = SubResource("AnimationLibrary_yaehf")
+
+[node name="UI" type="Node2D" parent="CharSelect" unique_id=1226839761]
+
+[node name="LabelHeader" type="Label" parent="CharSelect/UI" unique_id=1546067427]
+offset_left = 7.0
+offset_top = -58.0
+offset_right = 1163.0
+offset_bottom = 85.0
+text = "Choose Character"
+label_settings = SubResource("LabelSettings_efxa6")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P1Button" type="Node2D" parent="CharSelect/UI" unique_id=434716294]
+position = Vector2(157, 189)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharSelect/UI/P1Button" unique_id=418090689]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="CharSelect/UI/P1Button" unique_id=530660719]
+texture_filter = 1
+position = Vector2(484, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CharSelect/UI/P1Button" unique_id=1170026379]
+texture_filter = 1
+position = Vector2(596, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="CharSelect/UI/P1Button" unique_id=1273233169]
+texture_filter = 1
+position = Vector2(666, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="CharSelect/UI/P1Button" unique_id=2125851393]
+offset_left = 415.0
+offset_top = 486.0
+offset_right = 664.0
+offset_bottom = 555.0
+text = "Henry"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonP1" type="Button" parent="CharSelect/UI/P1Button" unique_id=146273808]
+clip_contents = true
+offset_left = 407.0
+offset_top = 484.0
+offset_right = 673.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="P2Button" type="Node2D" parent="CharSelect/UI" unique_id=820749419]
+position = Vector2(306, 189)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharSelect/UI/P2Button" unique_id=598268827]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="CharSelect/UI/P2Button" unique_id=1485012140]
+texture_filter = 1
+position = Vector2(484, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CharSelect/UI/P2Button" unique_id=1608676122]
+texture_filter = 1
+position = Vector2(596, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="CharSelect/UI/P2Button" unique_id=265017588]
+texture_filter = 1
+position = Vector2(666, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="CharSelect/UI/P2Button" unique_id=1381169647]
+offset_left = 416.0
+offset_top = 484.0
+offset_right = 665.0
+offset_bottom = 553.0
+text = "Maria"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonP2" type="Button" parent="CharSelect/UI/P2Button" unique_id=1597460547]
+clip_contents = true
+offset_left = 407.0
+offset_top = 484.0
+offset_right = 673.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="P3Button" type="Node2D" parent="CharSelect/UI" unique_id=1266093698]
+position = Vector2(453, 189)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharSelect/UI/P3Button" unique_id=819811224]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="CharSelect/UI/P3Button" unique_id=427776300]
+texture_filter = 1
+position = Vector2(484, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CharSelect/UI/P3Button" unique_id=2030865215]
+texture_filter = 1
+position = Vector2(596, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="CharSelect/UI/P3Button" unique_id=1790406580]
+texture_filter = 1
+position = Vector2(666, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="CharSelect/UI/P3Button" unique_id=1740668085]
+offset_left = 416.0
+offset_top = 484.0
+offset_right = 665.0
+offset_bottom = 553.0
+text = "Mane"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonP3" type="Button" parent="CharSelect/UI/P3Button" unique_id=747277131]
+clip_contents = true
+offset_left = 407.0
+offset_top = 484.0
+offset_right = 673.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="BackChooseButton" type="Node2D" parent="CharSelect/UI" unique_id=1640004343]
+position = Vector2(-188, -275)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharSelect/UI/BackChooseButton" unique_id=47456519]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CharSelect/UI/BackChooseButton" unique_id=630542067]
+texture_filter = 1
+position = Vector2(484, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="CharSelect/UI/BackChooseButton" unique_id=1648294177]
+texture_filter = 1
+position = Vector2(554.00006, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="CharSelect/UI/BackChooseButton" unique_id=2078886570]
+offset_left = 416.0
+offset_top = 484.0
+offset_right = 554.0
+offset_bottom = 553.0
+text = "Back"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonBackChoose" type="Button" parent="CharSelect/UI/BackChooseButton" unique_id=651614154]
+clip_contents = true
+offset_left = 407.0
+offset_top = 484.0
+offset_right = 562.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="Game" type="Node2D" parent="." unique_id=1034332890]
+visible = false
+script = ExtResource("13_a6jrf")
+
+[node name="UI" type="Node2D" parent="Game" unique_id=377620833]
+z_index = 10
+z_as_relative = false
+
+[node name="HealthBar" type="Node2D" parent="Game/UI" unique_id=1383160987]
+scale = Vector2(3, 3)
+
+[node name="Heart" type="Sprite2D" parent="Game/UI/HealthBar" unique_id=67370848]
+texture_filter = 1
+position = Vector2(7, 6)
+texture = ExtResource("13_yaehf")
+
+[node name="H0" type="Sprite2D" parent="Game/UI/HealthBar" unique_id=1780094153]
+texture_filter = 1
+position = Vector2(22, 6)
+texture = ExtResource("14_074og")
+
+[node name="H1" type="Sprite2D" parent="Game/UI/HealthBar" unique_id=335169187]
+texture_filter = 1
+position = Vector2(22, 6)
+texture = ExtResource("15_cegan")
+
+[node name="H2" type="Sprite2D" parent="Game/UI/HealthBar" unique_id=423154135]
+texture_filter = 1
+position = Vector2(22, 6)
+texture = ExtResource("17_getpj")
+
+[node name="H3" type="Sprite2D" parent="Game/UI/HealthBar" unique_id=1433253973]
+texture_filter = 1
+position = Vector2(22, 6)
+texture = ExtResource("18_074og")
+
+[node name="ExpBar" type="Node2D" parent="Game/UI" unique_id=157906066]
+position = Vector2(-1, 35)
+
+[node name="Exp0" type="Sprite2D" parent="Game/UI/ExpBar" unique_id=1911380935]
+texture_filter = 1
+position = Vector2(66.5, 9.5)
+scale = Vector2(3, 3)
+texture = ExtResource("19_d13ii")
+
+[node name="Exp1" type="Sprite2D" parent="Game/UI/ExpBar" unique_id=1269471280]
+texture_filter = 1
+position = Vector2(66.5, 9.5)
+scale = Vector2(3, 3)
+texture = ExtResource("20_1u8w0")
+
+[node name="Exp2" type="Sprite2D" parent="Game/UI/ExpBar" unique_id=1088616100]
+texture_filter = 1
+position = Vector2(66.5, 9.5)
+scale = Vector2(3, 3)
+texture = ExtResource("22_lswn8")
+
+[node name="Exp3" type="Sprite2D" parent="Game/UI/ExpBar" unique_id=1483669969]
+texture_filter = 1
+position = Vector2(66.5, 9.5)
+scale = Vector2(3, 3)
+texture = ExtResource("23_a6jrf")
+
+[node name="Label" type="Label" parent="Game/UI/ExpBar" unique_id=1556223114]
+offset_left = 8.0
+offset_top = -2.0
+offset_right = 35.0
+offset_bottom = 21.0
+text = "L1"
+label_settings = SubResource("LabelSettings_xuqvo")
+horizontal_alignment = 2
+
+[node name="CurrentWeapon" type="Node2D" parent="Game/UI" unique_id=2026290061]
+
+[node name="ColorRectBack" type="ColorRect" parent="Game/UI/CurrentWeapon" unique_id=1739594228]
+offset_left = 27.0
+offset_top = 565.0
+offset_right = 67.0
+offset_bottom = 605.0
+scale = Vector2(1.5, 1.5)
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRectFront" type="ColorRect" parent="Game/UI/CurrentWeapon" unique_id=149597974]
+offset_left = 31.0
+offset_top = 569.00006
+offset_right = 71.0
+offset_bottom = 609.00006
+scale = Vector2(1.3, 1.3)
+color = Color(0.82393205, 0.49831027, 1.92523e-07, 1)
+
+[node name="Pic" type="Sprite2D" parent="Game/UI/CurrentWeapon" unique_id=2022589292]
+texture_filter = 1
+position = Vector2(57.000004, 595)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("24_1u8w0")
+
+[node name="Sword" type="Sprite2D" parent="Game/UI/CurrentWeapon" unique_id=413254292]
+visible = false
+texture_filter = 1
+position = Vector2(57.000004, 595)
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("7_efxa6")
+
+[node name="Hand" type="Sprite2D" parent="Game/UI/CurrentWeapon" unique_id=1404465454]
+visible = false
+texture_filter = 1
+position = Vector2(57.000004, 595)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("9_ycdy4")
+
+[node name="Basket" type="Sprite2D" parent="Game/UI/CurrentWeapon" unique_id=1774021108]
+visible = false
+texture_filter = 1
+position = Vector2(57.000004, 595)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("11_dg77c")
+
+[node name="MenuButton" type="Node2D" parent="Game/UI" unique_id=706648013]
+position = Vector2(572, -465)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/MenuButton" unique_id=854106738]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/MenuButton" unique_id=1717031099]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/MenuButton" unique_id=1675792415]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/MenuButton" unique_id=122761203]
+offset_left = 414.0
+offset_top = 488.0
+offset_right = 548.0
+offset_bottom = 557.0
+text = "Menu"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonMenu" type="Button" parent="Game/UI/MenuButton" unique_id=666087977]
+clip_contents = true
+offset_left = 405.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="Menu" type="Node2D" parent="Game/UI" unique_id=660525653]
+visible = false
+script = ExtResource("25_lswn8")
+
+[node name="Panel" type="Panel" parent="Game/UI/Menu" unique_id=221107965]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 1157.0
+offset_bottom = 652.0
+
+[node name="ColorRectBack" type="ColorRect" parent="Game/UI/Menu" unique_id=1767909655]
+offset_left = 304.0
+offset_top = 41.0
+offset_right = 869.0
+offset_bottom = 599.0
+color = Color(0, 0, 0, 1)
+
+[node name="Sprite2DFront" type="Sprite2D" parent="Game/UI/Menu" unique_id=221096281]
+position = Vector2(586, 318)
+scale = Vector2(182, 181.33331)
+texture = ExtResource("25_0odxb")
+
+[node name="BackGameButton" type="Node2D" parent="Game/UI/Menu" unique_id=2022373274]
+position = Vector2(-82, -423)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/Menu/BackGameButton" unique_id=475931617]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/Menu/BackGameButton" unique_id=1660410238]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/Menu/BackGameButton" unique_id=1260359192]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/Menu/BackGameButton" unique_id=1960713142]
+offset_left = 414.0
+offset_top = 488.0
+offset_right = 548.0
+offset_bottom = 557.0
+text = "Back"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonGameBack" type="Button" parent="Game/UI/Menu/BackGameButton" unique_id=1412271916]
+clip_contents = true
+offset_left = 405.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="QuitGameButton" type="Node2D" parent="Game/UI/Menu" unique_id=622153185]
+position = Vector2(288, -426)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/Menu/QuitGameButton" unique_id=254646906]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/Menu/QuitGameButton" unique_id=1323228806]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/Menu/QuitGameButton" unique_id=1169446925]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/Menu/QuitGameButton" unique_id=2040899807]
+offset_left = 414.0
+offset_top = 488.0
+offset_right = 548.0
+offset_bottom = 557.0
+text = "Quit"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonQuitGame" type="Button" parent="Game/UI/Menu/QuitGameButton" unique_id=1413119333]
+clip_contents = true
+offset_left = 405.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="AttackButtonUp" type="Node2D" parent="Game/UI/Menu" unique_id=2093503232]
+position = Vector2(180, -239)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/Menu/AttackButtonUp" unique_id=2105045284]
+texture_filter = 1
+position = Vector2(259, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/Menu/AttackButtonUp" unique_id=483497729]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Game/UI/Menu/AttackButtonUp" unique_id=717975650]
+texture_filter = 1
+position = Vector2(326.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Game/UI/Menu/AttackButtonUp" unique_id=959512145]
+texture_filter = 1
+position = Vector2(404.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/Menu/AttackButtonUp" unique_id=1697268270]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/Menu/AttackButtonUp" unique_id=193936631]
+offset_left = 259.0
+offset_top = 487.0
+offset_right = 552.0
+offset_bottom = 556.0
+text = "Attack power"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonAttackUp" type="Button" parent="Game/UI/Menu/AttackButtonUp" unique_id=1082142642]
+clip_contents = true
+offset_left = 253.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="MiningButtonUp" type="Node2D" parent="Game/UI/Menu" unique_id=1668463203]
+position = Vector2(183, -126)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/Menu/MiningButtonUp" unique_id=1135305041]
+texture_filter = 1
+position = Vector2(259, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/Menu/MiningButtonUp" unique_id=548581508]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Game/UI/Menu/MiningButtonUp" unique_id=1263960557]
+texture_filter = 1
+position = Vector2(326.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Game/UI/Menu/MiningButtonUp" unique_id=188185857]
+texture_filter = 1
+position = Vector2(404.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/Menu/MiningButtonUp" unique_id=433801819]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/Menu/MiningButtonUp" unique_id=452790987]
+offset_left = 259.0
+offset_top = 487.0
+offset_right = 552.0
+offset_bottom = 556.0
+text = "Mining strength"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonMiningUp" type="Button" parent="Game/UI/Menu/MiningButtonUp" unique_id=1735765908]
+clip_contents = true
+offset_left = 252.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="SpeedButtonUp" type="Node2D" parent="Game/UI/Menu" unique_id=842288406]
+position = Vector2(185, -9)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/Menu/SpeedButtonUp" unique_id=460024102]
+texture_filter = 1
+position = Vector2(259, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/Menu/SpeedButtonUp" unique_id=2024481825]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Game/UI/Menu/SpeedButtonUp" unique_id=1446401825]
+texture_filter = 1
+position = Vector2(326.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Game/UI/Menu/SpeedButtonUp" unique_id=267664763]
+texture_filter = 1
+position = Vector2(404.99994, 522.00006)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/Menu/SpeedButtonUp" unique_id=598511239]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/Menu/SpeedButtonUp" unique_id=243002696]
+offset_left = 259.0
+offset_top = 487.0
+offset_right = 552.0
+offset_bottom = 556.0
+text = "Player speed"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonSpeedUp" type="Button" parent="Game/UI/Menu/SpeedButtonUp" unique_id=99647046]
+clip_contents = true
+offset_left = 251.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="LabelPointNumbers" type="Label" parent="Game/UI/Menu" unique_id=1255526676]
+offset_left = 414.0
+offset_top = 169.0
+offset_right = 759.0
+offset_bottom = 238.0
+text = "Level Points: 0"
+label_settings = SubResource("LabelSettings_0odxb")
+horizontal_alignment = 1
+
+[node name="GameOver" type="Node2D" parent="Game/UI" unique_id=1936128283]
+visible = false
+
+[node name="Panel" type="Panel" parent="Game/UI/GameOver" unique_id=345585084]
+offset_left = -4.0
+offset_top = -8.0
+offset_right = 1157.0
+offset_bottom = 654.0
+
+[node name="Label" type="Label" parent="Game/UI/GameOver" unique_id=1666741241]
+visible = false
+offset_left = -2.0
+offset_top = 34.0
+offset_right = 1152.0
+offset_bottom = 448.0
+text = "Game Over"
+label_settings = SubResource("LabelSettings_lswn8")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GameOverButton" type="Node2D" parent="Game/UI/GameOver" unique_id=1924976432]
+visible = false
+position = Vector2(102, -147)
+
+[node name="Sprite2D" type="Sprite2D" parent="Game/UI/GameOver/GameOverButton" unique_id=1447995555]
+texture_filter = 1
+position = Vector2(414, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("2_1bvp3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Game/UI/GameOver/GameOverButton" unique_id=1636544883]
+texture_filter = 1
+position = Vector2(481.00006, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("3_lquwl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Game/UI/GameOver/GameOverButton" unique_id=1086908671]
+texture_filter = 1
+position = Vector2(551, 522)
+scale = Vector2(7, 7)
+texture = ExtResource("4_7mycd")
+
+[node name="Label" type="Label" parent="Game/UI/GameOver/GameOverButton" unique_id=1286853549]
+offset_left = 414.0
+offset_top = 488.0
+offset_right = 548.0
+offset_bottom = 557.0
+text = "Quit"
+label_settings = SubResource("LabelSettings_kek77")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonGameOver" type="Button" parent="Game/UI/GameOver/GameOverButton" unique_id=1800733976]
+clip_contents = true
+offset_left = 405.0
+offset_top = 484.0
+offset_right = 558.0
+offset_bottom = 560.0
+theme_type_variation = &"FlatButton"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Game/UI" unique_id=625517001]
+libraries/ = SubResource("AnimationLibrary_xuqvo")
+
+[connection signal="pressed" from="StartScreen/UI/PlayButton/ButtonPlayGame" to="." method="_on_button_play_game_pressed"]
+[connection signal="pressed" from="CharSelect/UI/P1Button/ButtonP1" to="CharSelect" method="_on_button_p_1_pressed"]
+[connection signal="pressed" from="CharSelect/UI/P2Button/ButtonP2" to="CharSelect" method="_on_button_p_2_pressed"]
+[connection signal="pressed" from="CharSelect/UI/P3Button/ButtonP3" to="CharSelect" method="_on_button_p_3_pressed"]
+[connection signal="pressed" from="CharSelect/UI/BackChooseButton/ButtonBackChoose" to="CharSelect" method="_on_button_back_choose_pressed"]
+[connection signal="pressed" from="Game/UI/MenuButton/ButtonMenu" to="Game" method="_on_button_menu_pressed"]
+[connection signal="pressed" from="Game/UI/Menu/BackGameButton/ButtonGameBack" to="Game" method="_on_button_game_back_pressed"]
+[connection signal="pressed" from="Game/UI/Menu/QuitGameButton/ButtonQuitGame" to="." method="_on_button_quit_game_pressed"]
+[connection signal="pressed" from="Game/UI/Menu/AttackButtonUp/ButtonAttackUp" to="Game" method="_on_button_attack_up_pressed"]
+[connection signal="pressed" from="Game/UI/Menu/MiningButtonUp/ButtonMiningUp" to="Game" method="_on_button_mining_up_pressed"]
+[connection signal="pressed" from="Game/UI/Menu/SpeedButtonUp/ButtonSpeedUp" to="Game" method="_on_button_speed_up_pressed"]
+[connection signal="pressed" from="Game/UI/GameOver/GameOverButton/ButtonGameOver" to="." method="_on_button_game_over_pressed"]
